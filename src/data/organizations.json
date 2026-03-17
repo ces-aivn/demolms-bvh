@@ -1,0 +1,47 @@
+[
+  {
+    "id": "org-01",
+    "name": "Cục Di sản Văn hóa",
+    "shortName": "DSVH",
+    "logo": "/images/orgs/org-01.png",
+    "description": "Cơ quan quản lý nhà nước về di sản văn hóa vật thể và phi vật thể trực thuộc Bộ Văn hóa, Thể thao và Du lịch.",
+    "courseCount": 12,
+    "memberCount": 340
+  },
+  {
+    "id": "org-02",
+    "name": "Tổng cục Thể dục Thể thao",
+    "shortName": "TDTT",
+    "logo": "/images/orgs/org-02.png",
+    "description": "Cơ quan quản lý nhà nước về thể dục thể thao, phát triển thể thao quần chúng và thể thao thành tích cao.",
+    "courseCount": 15,
+    "memberCount": 520
+  },
+  {
+    "id": "org-03",
+    "name": "Tổng cục Du lịch",
+    "shortName": "TCDL",
+    "logo": "/images/orgs/org-03.png",
+    "description": "Cơ quan quản lý nhà nước về du lịch, xúc tiến du lịch và phát triển nguồn nhân lực ngành du lịch Việt Nam.",
+    "courseCount": 18,
+    "memberCount": 680
+  },
+  {
+    "id": "org-04",
+    "name": "Viện Văn hóa Nghệ thuật quốc gia Việt Nam",
+    "shortName": "VICAS",
+    "logo": "/images/orgs/org-04.png",
+    "description": "Viện nghiên cứu hàng đầu về văn hóa, nghệ thuật dân gian và mỹ thuật ứng dụng của Việt Nam.",
+    "courseCount": 10,
+    "memberCount": 180
+  },
+  {
+    "id": "org-05",
+    "name": "Trường Đại học Văn hóa Hà Nội",
+    "shortName": "ĐHVHHN",
+    "logo": "/images/orgs/org-05.png",
+    "description": "Cơ sở đào tạo đại học và sau đại học chuyên ngành văn hóa, nghệ thuật, du lịch và thông tin - thư viện.",
+    "courseCount": 22,
+    "memberCount": 1240
+  }
+]

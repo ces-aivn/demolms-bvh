@@ -1,0 +1,98 @@
+[
+  {
+    "id": "review-01",
+    "courseId": "course-01",
+    "userId": "user-02",
+    "rating": 5,
+    "comment": "Khóa học rất hữu ích và thiết thực. Giảng viên trình bày rõ ràng, dễ hiểu. Tôi đã áp dụng được nhiều kiến thức vào công việc thực tế tại đơn vị.",
+    "date": "2024-03-10"
+  },
+  {
+    "id": "review-02",
+    "courseId": "course-01",
+    "userId": "user-03",
+    "rating": 4,
+    "comment": "Nội dung phong phú, tài liệu đầy đủ. Phần thực hành điền dã rất hay. Mong có thêm case study từ các địa phương miền Bắc.",
+    "date": "2024-03-05"
+  },
+  {
+    "id": "review-03",
+    "courseId": "course-01",
+    "userId": "user-04",
+    "rating": 5,
+    "comment": "Đây là khóa học bổ ích nhất tôi từng tham gia. Kiến thức về UNESCO 2003 được giải thích rất cụ thể và áp dụng được ngay.",
+    "date": "2024-02-28"
+  },
+  {
+    "id": "review-04",
+    "courseId": "course-03",
+    "userId": "user-01",
+    "rating": 4,
+    "comment": "Khóa học cung cấp kiến thức toàn diện về kỹ năng hướng dẫn viên. Video demo kỹ năng thuyết minh rất thực tế và hữu ích.",
+    "date": "2024-03-18"
+  },
+  {
+    "id": "review-05",
+    "courseId": "course-03",
+    "userId": "user-05",
+    "rating": 5,
+    "comment": "Nội dung bài học được biên soạn công phu. Phần xử lý tình huống khách hàng khó tính giúp tôi tự tin hơn nhiều trong công việc.",
+    "date": "2024-03-12"
+  },
+  {
+    "id": "review-06",
+    "courseId": "course-05",
+    "userId": "user-02",
+    "rating": 4,
+    "comment": "Khóa học cơ bản nhưng đủ để nắm vững nền tảng. Tài liệu dạng PDF rất tiện để tra cứu sau này. Giảng viên nhiệt tình hỗ trợ.",
+    "date": "2024-03-08"
+  },
+  {
+    "id": "review-07",
+    "courseId": "course-07",
+    "userId": "user-01",
+    "rating": 5,
+    "comment": "Khóa học tuyệt vời! Các bài tập thực hành giúp nắm chắc kỹ thuật. Tôi đã đạt thành tích tốt trong giải đấu cấp tỉnh sau khi hoàn thành khóa này.",
+    "date": "2024-02-25"
+  },
+  {
+    "id": "review-08",
+    "courseId": "course-07",
+    "userId": "user-04",
+    "rating": 4,
+    "comment": "Video hướng dẫn kỹ thuật rõ ràng, dễ theo dõi. Phần dinh dưỡng cho vận động viên rất thực tế. Nên bổ sung thêm phần chấn thương thể thao.",
+    "date": "2024-02-20"
+  },
+  {
+    "id": "review-09",
+    "courseId": "course-09",
+    "userId": "user-03",
+    "rating": 5,
+    "comment": "Kiến thức về pháp luật du lịch được trình bày mạch lạc, có nhiều ví dụ minh họa thực tế. Rất phù hợp cho cán bộ quản lý du lịch cấp huyện.",
+    "date": "2024-03-15"
+  },
+  {
+    "id": "review-10",
+    "courseId": "course-11",
+    "userId": "user-01",
+    "rating": 5,
+    "comment": "Đây là khóa học tôi tâm đắc nhất về bảo tồn di sản. Phần phục hồi kiến trúc cổ và bảo tồn tư liệu lịch sử rất giá trị và độc đáo.",
+    "date": "2024-03-01"
+  },
+  {
+    "id": "review-11",
+    "courseId": "course-13",
+    "userId": "user-02",
+    "rating": 4,
+    "comment": "Nội dung thiết kế tour du lịch văn hóa rất sáng tạo. Phần marketing du lịch bền vững giúp tôi có cái nhìn mới về nghề.",
+    "date": "2024-03-14"
+  },
+  {
+    "id": "review-12",
+    "courseId": "course-18",
+    "userId": "user-04",
+    "rating": 5,
+    "comment": "Khóa học ngắn gọn nhưng cực kỳ thiết thực. Các kỹ năng số được hướng dẫn từng bước một. Phù hợp cho cán bộ ở mọi trình độ công nghệ.",
+    "date": "2024-03-03"
+  }
+]

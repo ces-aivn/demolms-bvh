@@ -1,0 +1,82 @@
+[
+  {
+    "id": "badge-01",
+    "name": "Người học tích cực",
+    "description": "Hoàn thành 5 khóa học",
+    "icon": "Award",
+    "earned": true,
+    "earnedDate": "2024-03-01"
+  },
+  {
+    "id": "badge-02",
+    "name": "Điểm cao xuất sắc",
+    "description": "Đạt điểm 90+ trong bài kiểm tra",
+    "icon": "Star",
+    "earned": true,
+    "earnedDate": "2024-03-15"
+  },
+  {
+    "id": "badge-03",
+    "name": "Chuyên gia Văn hóa",
+    "description": "Hoàn thành 3 khóa học về Văn hóa",
+    "icon": "BookOpen",
+    "earned": true,
+    "earnedDate": "2024-02-20"
+  },
+  {
+    "id": "badge-04",
+    "name": "Tinh thần thể thao",
+    "description": "Hoàn thành 2 khóa học về Thể thao",
+    "icon": "Trophy",
+    "earned": false,
+    "earnedDate": null
+  },
+  {
+    "id": "badge-05",
+    "name": "Khám phá Du lịch",
+    "description": "Hoàn thành 2 khóa học về Du lịch",
+    "icon": "Globe",
+    "earned": false,
+    "earnedDate": null
+  },
+  {
+    "id": "badge-06",
+    "name": "Học liên tục",
+    "description": "Đăng nhập 7 ngày liên tiếp",
+    "icon": "Zap",
+    "earned": true,
+    "earnedDate": "2024-03-10"
+  },
+  {
+    "id": "badge-07",
+    "name": "Nhà bình luận",
+    "description": "Viết 5 đánh giá khóa học",
+    "icon": "MessageSquare",
+    "earned": false,
+    "earnedDate": null
+  },
+  {
+    "id": "badge-08",
+    "name": "Chứng nhận đầu tiên",
+    "description": "Nhận chứng chỉ khóa học đầu tiên",
+    "icon": "Shield",
+    "earned": true,
+    "earnedDate": "2024-02-15"
+  },
+  {
+    "id": "badge-09",
+    "name": "Tiên phong số",
+    "description": "Hoàn thành khóa học về chuyển đổi số",
+    "icon": "Monitor",
+    "earned": false,
+    "earnedDate": null
+  },
+  {
+    "id": "badge-10",
+    "name": "Cộng đồng học tập",
+    "description": "Chia sẻ 10 nội dung học tập",
+    "icon": "Users",
+    "earned": false,
+    "earnedDate": null
+  }
+]

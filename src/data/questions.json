@@ -1,0 +1,125 @@
+[
+  {
+    "id": "q-01",
+    "type": "mcq",
+    "text": "Công ước UNESCO năm nào quy định về bảo vệ Di sản Văn hóa Phi vật thể?",
+    "options": ["1972", "1989", "2003", "2005"],
+    "correctAnswer": 2,
+    "courseId": "course-01"
+  },
+  {
+    "id": "q-02",
+    "type": "true-false",
+    "text": "Di sản văn hóa phi vật thể bao gồm các công trình kiến trúc cổ đại.",
+    "correctAnswer": false,
+    "courseId": "course-01"
+  },
+  {
+    "id": "q-03",
+    "type": "mcq",
+    "text": "Cơ quan nào chịu trách nhiệm quản lý nhà nước về di sản văn hóa tại Việt Nam?",
+    "options": ["Bộ Nội vụ", "Bộ Văn hóa, Thể thao và Du lịch", "Bộ Tài nguyên và Môi trường", "Ủy ban nhân dân tỉnh"],
+    "correctAnswer": 1,
+    "courseId": "course-01"
+  },
+  {
+    "id": "q-04",
+    "type": "mcq",
+    "text": "Luật Di sản Văn hóa Việt Nam được ban hành lần đầu vào năm nào?",
+    "options": ["1999", "2001", "2003", "2009"],
+    "correctAnswer": 1,
+    "courseId": "course-02"
+  },
+  {
+    "id": "q-05",
+    "type": "true-false",
+    "text": "Quan họ Bắc Ninh đã được UNESCO công nhận là Di sản Văn hóa Phi vật thể đại diện của nhân loại.",
+    "correctAnswer": true,
+    "courseId": "course-01"
+  },
+  {
+    "id": "q-06",
+    "type": "mcq",
+    "text": "Phương pháp kiểm kê di sản phi vật thể nào sau đây được UNESCO khuyến nghị?",
+    "options": ["Điều tra dân số", "Lập hồ sơ khoa học kết hợp cộng đồng", "Chụp ảnh lưu trữ đơn thuần", "Phỏng vấn chuyên gia nước ngoài"],
+    "correctAnswer": 1,
+    "courseId": "course-01"
+  },
+  {
+    "id": "q-07",
+    "type": "matching",
+    "text": "Nối các loại di sản văn hóa phi vật thể với ví dụ tương ứng:",
+    "pairs": [
+      { "left": "Nghệ thuật trình diễn", "right": "Hát xoan Phú Thọ" },
+      { "left": "Tập quán xã hội", "right": "Lễ hội Đền Hùng" },
+      { "left": "Tri thức dân gian", "right": "Y học cổ truyền" },
+      { "left": "Ngôn ngữ", "right": "Tiếng Việt các dân tộc thiểu số" }
+    ],
+    "courseId": "course-01"
+  },
+  {
+    "id": "q-08",
+    "type": "mcq",
+    "text": "Trong bảo tồn kiến trúc cổ, nguyên tắc 'tính xác thực' (authenticity) đề cập đến điều gì?",
+    "options": ["Sử dụng vật liệu hiện đại", "Giữ nguyên chất liệu và kỹ thuật truyền thống", "Thay thế toàn bộ cấu kiện cũ", "Bổ sung các yếu tố kiến trúc mới"],
+    "correctAnswer": 1,
+    "courseId": "course-03"
+  },
+  {
+    "id": "q-09",
+    "type": "true-false",
+    "text": "Phố cổ Hội An là Di sản Văn hóa Thế giới được UNESCO công nhận vào năm 1999.",
+    "correctAnswer": true,
+    "courseId": "course-03"
+  },
+  {
+    "id": "q-10",
+    "type": "mcq",
+    "text": "Bảo tàng nào tại Việt Nam được xây dựng theo kiến trúc Pháp thuộc địa và hiện là bảo tàng lớn nhất cả nước?",
+    "options": ["Bảo tàng Lịch sử Quốc gia", "Bảo tàng Hồ Chí Minh", "Bảo tàng Mỹ thuật Việt Nam", "Bảo tàng Dân tộc học Việt Nam"],
+    "correctAnswer": 0,
+    "courseId": "course-04"
+  },
+  {
+    "id": "q-11",
+    "type": "mcq",
+    "text": "Hình thức âm nhạc nào sau đây là đặc trưng của vùng đồng bằng Bắc Bộ?",
+    "options": ["Đờn ca tài tử", "Ca trù", "Bài chòi", "Ví dặm"],
+    "correctAnswer": 1,
+    "courseId": "course-05"
+  },
+  {
+    "id": "q-12",
+    "type": "true-false",
+    "text": "Ca trù đã bị UNESCO đưa vào danh sách Di sản Văn hóa Phi vật thể cần bảo vệ khẩn cấp.",
+    "correctAnswer": true,
+    "courseId": "course-05"
+  },
+  {
+    "id": "q-13",
+    "type": "matching",
+    "text": "Nối tên bảo tàng với địa điểm:",
+    "pairs": [
+      { "left": "Bảo tàng Văn hóa các Dân tộc Việt Nam", "right": "Thái Nguyên" },
+      { "left": "Bảo tàng Chăm", "right": "Đà Nẵng" },
+      { "left": "Bảo tàng Mỹ thuật", "right": "Hà Nội" },
+      { "left": "Bảo tàng Lịch sử TP.HCM", "right": "Hồ Chí Minh" }
+    ],
+    "courseId": "course-04"
+  },
+  {
+    "id": "q-14",
+    "type": "mcq",
+    "text": "Chỉ số nào sau đây KHÔNG được sử dụng để đánh giá hiệu quả quản lý bảo tàng?",
+    "options": ["Số lượng khách tham quan", "Mức độ hài lòng của khách", "Doanh thu từ bán vé", "Lợi nhuận cổ đông"],
+    "correctAnswer": 3,
+    "courseId": "course-04"
+  },
+  {
+    "id": "q-15",
+    "type": "true-false",
+    "text": "Các di tích lịch sử - văn hóa được xếp hạng quốc gia đặc biệt chịu sự quản lý trực tiếp của Bộ Văn hóa, Thể thao và Du lịch.",
+    "correctAnswer": false,
+    "courseId": "course-02"
+  }
+]

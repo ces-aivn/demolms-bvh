@@ -1,0 +1,167 @@
+[
+  {
+    "id": "sp-01",
+    "name": "Nguyễn Thị Minh Châu",
+    "email": "chau.ntm@bvhttdl.gov.vn",
+    "courseId": "course-01",
+    "courseTitle": "Quản lý Di sản Văn hóa Phi vật thể",
+    "completion": 92,
+    "quizScore": 88,
+    "lastActive": "2024-12-15",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-02",
+    "name": "Trần Đức Mạnh",
+    "email": "manh.td@bvhttdl.gov.vn",
+    "courseId": "course-01",
+    "courseTitle": "Quản lý Di sản Văn hóa Phi vật thể",
+    "completion": 100,
+    "quizScore": 95,
+    "lastActive": "2024-12-10",
+    "status": "completed"
+  },
+  {
+    "id": "sp-03",
+    "name": "Lê Thị Phương Thảo",
+    "email": "thao.ltp@bvhttdl.gov.vn",
+    "courseId": "course-02",
+    "courseTitle": "Luật Di sản Văn hóa",
+    "completion": 45,
+    "quizScore": 72,
+    "lastActive": "2024-12-12",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-04",
+    "name": "Phạm Văn Hải",
+    "email": "hai.pv@bvhttdl.gov.vn",
+    "courseId": "course-01",
+    "courseTitle": "Quản lý Di sản Văn hóa Phi vật thể",
+    "completion": 100,
+    "quizScore": 91,
+    "lastActive": "2024-11-28",
+    "status": "completed"
+  },
+  {
+    "id": "sp-05",
+    "name": "Hoàng Thị Lan",
+    "email": "lan.ht@bvhttdl.gov.vn",
+    "courseId": "course-02",
+    "courseTitle": "Luật Di sản Văn hóa",
+    "completion": 20,
+    "quizScore": 60,
+    "lastActive": "2024-11-05",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-06",
+    "name": "Vũ Minh Tuấn",
+    "email": "tuan.vm@bvhttdl.gov.vn",
+    "courseId": "course-03",
+    "courseTitle": "Bảo tồn Kiến trúc Cổ",
+    "completion": 78,
+    "quizScore": 85,
+    "lastActive": "2024-12-14",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-07",
+    "name": "Đặng Thị Hồng",
+    "email": "hong.dt@bvhttdl.gov.vn",
+    "courseId": "course-01",
+    "courseTitle": "Quản lý Di sản Văn hóa Phi vật thể",
+    "completion": 55,
+    "quizScore": 78,
+    "lastActive": "2024-12-08",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-08",
+    "name": "Bùi Văn Long",
+    "email": "long.bv@bvhttdl.gov.vn",
+    "courseId": "course-03",
+    "courseTitle": "Bảo tồn Kiến trúc Cổ",
+    "completion": 100,
+    "quizScore": 93,
+    "lastActive": "2024-12-01",
+    "status": "completed"
+  },
+  {
+    "id": "sp-09",
+    "name": "Nguyễn Thành Nam",
+    "email": "nam.nt@bvhttdl.gov.vn",
+    "courseId": "course-02",
+    "courseTitle": "Luật Di sản Văn hóa",
+    "completion": 30,
+    "quizScore": 65,
+    "lastActive": "2024-10-20",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-10",
+    "name": "Trần Thị Thu Hà",
+    "email": "ha.ttt@bvhttdl.gov.vn",
+    "courseId": "course-01",
+    "courseTitle": "Quản lý Di sản Văn hóa Phi vật thể",
+    "completion": 0,
+    "quizScore": 0,
+    "lastActive": "2024-09-15",
+    "status": "enrolled"
+  },
+  {
+    "id": "sp-11",
+    "name": "Lý Văn Phúc",
+    "email": "phuc.lv@bvhttdl.gov.vn",
+    "courseId": "course-03",
+    "courseTitle": "Bảo tồn Kiến trúc Cổ",
+    "completion": 65,
+    "quizScore": 80,
+    "lastActive": "2024-12-13",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-12",
+    "name": "Mai Thị Xuân",
+    "email": "xuan.mt@bvhttdl.gov.vn",
+    "courseId": "course-02",
+    "courseTitle": "Luật Di sản Văn hóa",
+    "completion": 100,
+    "quizScore": 89,
+    "lastActive": "2024-11-30",
+    "status": "completed"
+  },
+  {
+    "id": "sp-13",
+    "name": "Đinh Quốc Hùng",
+    "email": "hung.dq@bvhttdl.gov.vn",
+    "courseId": "course-01",
+    "courseTitle": "Quản lý Di sản Văn hóa Phi vật thể",
+    "completion": 38,
+    "quizScore": 70,
+    "lastActive": "2024-12-05",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-14",
+    "name": "Phạm Thanh Tùng",
+    "email": "tung.pt@bvhttdl.gov.vn",
+    "courseId": "course-03",
+    "courseTitle": "Bảo tồn Kiến trúc Cổ",
+    "completion": 88,
+    "quizScore": 92,
+    "lastActive": "2024-12-11",
+    "status": "in-progress"
+  },
+  {
+    "id": "sp-15",
+    "name": "Ngô Thị Bích Ngọc",
+    "email": "ngoc.ntb@bvhttdl.gov.vn",
+    "courseId": "course-02",
+    "courseTitle": "Luật Di sản Văn hóa",
+    "completion": 12,
+    "quizScore": 0,
+    "lastActive": "2024-09-28",
+    "status": "enrolled"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lb-01",
+    "userId": "user-01",
+    "name": "Nguyễn Thị Minh Châu",
+    "avatar": "/images/avatars/user-01.jpg",
+    "organizationId": "org-01",
+    "points": 920,
+    "badgesEarned": 4,
+    "coursesCompleted": 1,
+    "rank": 1
+  },
+  {
+    "id": "lb-02",
+    "userId": "user-02",
+    "name": "Trần Đức Mạnh",
+    "avatar": "/images/avatars/user-02.jpg",
+    "organizationId": "org-02",
+    "points": 880,
+    "badgesEarned": 3,
+    "coursesCompleted": 2,
+    "rank": 2
+  },
+  {
+    "id": "lb-03",
+    "userId": "user-03",
+    "name": "Lê Thị Phương Thảo",
+    "avatar": "/images/avatars/user-03.jpg",
+    "organizationId": "org-03",
+    "points": 810,
+    "badgesEarned": 3,
+    "coursesCompleted": 1,
+    "rank": 3
+  },
+  {
+    "id": "lb-04",
+    "userId": "user-04",
+    "name": "Phạm Văn Hải",
+    "avatar": "/images/avatars/user-04.jpg",
+    "organizationId": "org-04",
+    "points": 750,
+    "badgesEarned": 2,
+    "coursesCompleted": 1,
+    "rank": 4
+  },
+  {
+    "id": "lb-05",
+    "userId": "user-05",
+    "name": "Hoàng Thị Lan",
+    "avatar": "/images/avatars/user-05.jpg",
+    "organizationId": "org-05",
+    "points": 720,
+    "badgesEarned": 2,
+    "coursesCompleted": 1,
+    "rank": 5
+  },
+  {
+    "id": "lb-06",
+    "userId": "lb-user-06",
+    "name": "Đỗ Minh Tuấn",
+    "avatar": "",
+    "organizationId": "org-01",
+    "points": 680,
+    "badgesEarned": 2,
+    "coursesCompleted": 2,
+    "rank": 6
+  },
+  {
+    "id": "lb-07",
+    "userId": "lb-user-07",
+    "name": "Nguyễn Thị Hoa",
+    "avatar": "",
+    "organizationId": "org-02",
+    "points": 650,
+    "badgesEarned": 1,
+    "coursesCompleted": 1,
+    "rank": 7
+  },
+  {
+    "id": "lb-08",
+    "userId": "lb-user-08",
+    "name": "Trần Văn Long",
+    "avatar": "",
+    "organizationId": "org-03",
+    "points": 620,
+    "badgesEarned": 2,
+    "coursesCompleted": 1,
+    "rank": 8
+  },
+  {
+    "id": "lb-09",
+    "userId": "lb-user-09",
+    "name": "Phạm Thị Bích",
+    "avatar": "",
+    "organizationId": "org-04",
+    "points": 590,
+    "badgesEarned": 1,
+    "coursesCompleted": 1,
+    "rank": 9
+  },
+  {
+    "id": "lb-10",
+    "userId": "lb-user-10",
+    "name": "Lê Quang Hùng",
+    "avatar": "",
+    "organizationId": "org-05",
+    "points": 570,
+    "badgesEarned": 1,
+    "coursesCompleted": 2,
+    "rank": 10
+  },
+  {
+    "id": "lb-11",
+    "userId": "lb-user-11",
+    "name": "Võ Thị Mai",
+    "avatar": "",
+    "organizationId": "org-01",
+    "points": 540,
+    "badgesEarned": 1,
+    "coursesCompleted": 1,
+    "rank": 11
+  },
+  {
+    "id": "lb-12",
+    "userId": "lb-user-12",
+    "name": "Đinh Văn Thắng",
+    "avatar": "",
+    "organizationId": "org-02",
+    "points": 510,
+    "badgesEarned": 1,
+    "coursesCompleted": 1,
+    "rank": 12
+  },
+  {
+    "id": "lb-13",
+    "userId": "lb-user-13",
+    "name": "Bùi Thị Thanh",
+    "avatar": "",
+    "organizationId": "org-03",
+    "points": 490,
+    "badgesEarned": 0,
+    "coursesCompleted": 1,
+    "rank": 13
+  },
+  {
+    "id": "lb-14",
+    "userId": "lb-user-14",
+    "name": "Hoàng Văn Đức",
+    "avatar": "",
+    "organizationId": "org-04",
+    "points": 460,
+    "badgesEarned": 1,
+    "coursesCompleted": 0,
+    "rank": 14
+  },
+  {
+    "id": "lb-15",
+    "userId": "lb-user-15",
+    "name": "Ngô Thị Hương",
+    "avatar": "",
+    "organizationId": "org-05",
+    "points": 430,
+    "badgesEarned": 0,
+    "coursesCompleted": 0,
+    "rank": 15
+  },
+  {
+    "id": "lb-16",
+    "userId": "lb-user-16",
+    "name": "Phùng Minh Khoa",
+    "avatar": "",
+    "organizationId": "org-01",
+    "points": 400,
+    "badgesEarned": 0,
+    "coursesCompleted": 0,
+    "rank": 16
+  },
+  {
+    "id": "lb-17",
+    "userId": "lb-user-17",
+    "name": "Trịnh Thị Nga",
+    "avatar": "",
+    "organizationId": "org-02",
+    "points": 370,
+    "badgesEarned": 0,
+    "coursesCompleted": 0,
+    "rank": 17
+  },
+  {
+    "id": "lb-18",
+    "userId": "lb-user-18",
+    "name": "Dương Văn Tú",
+    "avatar": "",
+    "organizationId": "org-03",
+    "points": 340,
+    "badgesEarned": 0,
+    "coursesCompleted": 0,
+    "rank": 18
+  },
+  {
+    "id": "lb-19",
+    "userId": "lb-user-19",
+    "name": "Lý Thị Kim Anh",
+    "avatar": "",
+    "organizationId": "org-04",
+    "points": 310,
+    "badgesEarned": 0,
+    "coursesCompleted": 0,
+    "rank": 19
+  },
+  {
+    "id": "lb-20",
+    "userId": "lb-user-20",
+    "name": "Chu Văn Bình",
+    "avatar": "",
+    "organizationId": "org-05",
+    "points": 280,
+    "badgesEarned": 0,
+    "coursesCompleted": 0,
+    "rank": 20
+  }
+]

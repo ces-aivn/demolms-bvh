@@ -1,0 +1,11 @@
+{
+  "platformName": "Hệ thống Học tập Trực tuyến BVHTTDL",
+  "description": "Nền tảng đào tạo trực tuyến chính thức của Bộ Văn hóa, Thể thao và Du lịch Việt Nam",
+  "contactEmail": "elearning@bvhttdl.gov.vn",
+  "contactPhone": "024 3943 5555",
+  "address": "51 Ngô Quyền, Hoàn Kiếm, Hà Nội",
+  "logoUrl": "/images/logo.png",
+  "primaryColor": "#B71C1C",
+  "secondaryColor": "#FFC107",
+  "accentColor": "#1A237E"
+}

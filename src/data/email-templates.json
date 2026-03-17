@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tpl-01",
+    "name": "Chào mừng thành viên mới",
+    "subject": "Chào mừng bạn đến với Hệ thống Học tập BVHTTDL",
+    "description": "Gửi cho người dùng khi tài khoản được tạo mới thành công",
+    "lastUpdated": "2024-02-15"
+  },
+  {
+    "id": "tpl-02",
+    "name": "Nhắc nhở deadline khóa học",
+    "subject": "Nhắc nhở: Khóa học của bạn sắp hết hạn",
+    "description": "Gửi trước 7 ngày khi người dùng chưa hoàn thành khóa học",
+    "lastUpdated": "2024-02-20"
+  },
+  {
+    "id": "tpl-03",
+    "name": "Thông báo cấp chứng chỉ",
+    "subject": "Chúc mừng! Bạn đã nhận được chứng chỉ hoàn thành",
+    "description": "Gửi khi người dùng hoàn thành khóa học và được cấp chứng chỉ",
+    "lastUpdated": "2024-03-01"
+  },
+  {
+    "id": "tpl-04",
+    "name": "Khóa học mới được phê duyệt",
+    "subject": "Khóa học của bạn đã được phê duyệt và xuất bản",
+    "description": "Gửi cho giảng viên khi khóa học được quản trị viên phê duyệt",
+    "lastUpdated": "2024-03-05"
+  },
+  {
+    "id": "tpl-05",
+    "name": "Thông báo bảo trì hệ thống",
+    "subject": "Thông báo: Hệ thống tạm ngừng hoạt động để bảo trì",
+    "description": "Gửi cho toàn bộ người dùng trước khi hệ thống bảo trì",
+    "lastUpdated": "2024-03-10"
+  }
+]

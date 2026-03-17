@@ -1,0 +1,14 @@
+{
+  "totalCourses": 6,
+  "totalStudents": 423,
+  "avgCompletion": 78,
+  "avgRating": 4.6,
+  "monthlyEnrollments": [45, 52, 38, 61, 55, 48, 72, 65, 58, 70, 63, 75],
+  "topCourses": [
+    { "title": "Quản lý Di sản Văn hóa Phi vật thể", "enrolled": 156, "completion": 82 },
+    { "title": "Luật Di sản Văn hóa", "enrolled": 134, "completion": 75 },
+    { "title": "Bảo tồn Kiến trúc Cổ", "enrolled": 98, "completion": 88 },
+    { "title": "Nghệ thuật Biểu diễn Truyền thống", "enrolled": 78, "completion": 65 },
+    { "title": "Quản lý Bảo tàng Hiện đại", "enrolled": 57, "completion": 71 }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cert-001",
+    "userId": "user-01",
+    "courseId": "course-01",
+    "issuedDate": "2024-03-16",
+    "verificationCode": "BVHTTDL-2024-VC-001847"
+  },
+  {
+    "id": "cert-002",
+    "userId": "user-02",
+    "courseId": "course-07",
+    "issuedDate": "2024-03-02",
+    "verificationCode": "BVHTTDL-2024-TT-002391"
+  },
+  {
+    "id": "cert-003",
+    "userId": "user-02",
+    "courseId": "course-11",
+    "issuedDate": "2024-03-11",
+    "verificationCode": "BVHTTDL-2024-TT-003012"
+  },
+  {
+    "id": "cert-004",
+    "userId": "user-03",
+    "courseId": "course-13",
+    "issuedDate": "2024-03-19",
+    "verificationCode": "BVHTTDL-2024-DL-004256"
+  },
+  {
+    "id": "cert-005",
+    "userId": "user-04",
+    "courseId": "course-06",
+    "issuedDate": "2024-03-13",
+    "verificationCode": "BVHTTDL-2024-VC-005103"
+  },
+  {
+    "id": "cert-006",
+    "userId": "user-05",
+    "courseId": "course-18",
+    "issuedDate": "2024-03-06",
+    "verificationCode": "BVHTTDL-2024-DL-006789"
+  }
+]

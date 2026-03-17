@@ -1,0 +1,502 @@
+[
+  {
+    "id": "user-01",
+    "name": "Nguyễn Thị Minh Châu",
+    "email": "chau.ntm@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-01.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-01-15",
+    "status": "active"
+  },
+  {
+    "id": "user-02",
+    "name": "Trần Đức Mạnh",
+    "email": "manh.td@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-02.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-02-10",
+    "status": "active"
+  },
+  {
+    "id": "user-03",
+    "name": "Lê Thị Phương Thảo",
+    "email": "thao.ltp@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-03.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-01-28",
+    "status": "active"
+  },
+  {
+    "id": "user-04",
+    "name": "Phạm Văn Hải",
+    "email": "hai.pv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-04.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-03-05",
+    "status": "active"
+  },
+  {
+    "id": "user-05",
+    "name": "Hoàng Thị Lan",
+    "email": "lan.ht@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-05.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-02-20",
+    "status": "active"
+  },
+  {
+    "id": "user-06",
+    "name": "PGS.TS Nguyễn Văn An",
+    "email": "an.nv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-06.jpg",
+    "role": "instructor",
+    "organizationId": "org-01",
+    "joinedDate": "2023-09-01",
+    "status": "active"
+  },
+  {
+    "id": "user-07",
+    "name": "TS. Trần Thị Bích Ngọc",
+    "email": "ngoc.ttb@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-07.jpg",
+    "role": "instructor",
+    "organizationId": "org-03",
+    "joinedDate": "2023-09-01",
+    "status": "active"
+  },
+  {
+    "id": "user-08",
+    "name": "ThS. Lê Minh Phương",
+    "email": "phuong.lm@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-08.jpg",
+    "role": "instructor",
+    "organizationId": "org-04",
+    "joinedDate": "2023-10-15",
+    "status": "active"
+  },
+  {
+    "id": "user-09",
+    "name": "Đinh Thị Thu Hương",
+    "email": "huong.dtt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-09.jpg",
+    "role": "admin",
+    "organizationId": "org-01",
+    "joinedDate": "2023-08-01",
+    "status": "active"
+  },
+  {
+    "id": "user-10",
+    "name": "Vũ Quang Minh",
+    "email": "minh.vq@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-10.jpg",
+    "role": "admin",
+    "organizationId": "org-01",
+    "joinedDate": "2023-08-01",
+    "status": "active"
+  },
+  {
+    "id": "user-11",
+    "name": "Bùi Thị Hồng Nhung",
+    "email": "nhung.bth@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-11.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-01-10",
+    "status": "active"
+  },
+  {
+    "id": "user-12",
+    "name": "Ngô Văn Tuấn",
+    "email": "tuan.nv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-12.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-02-05",
+    "status": "active"
+  },
+  {
+    "id": "user-13",
+    "name": "Đặng Thị Kim Anh",
+    "email": "anh.dtk@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-13.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-03-12",
+    "status": "inactive"
+  },
+  {
+    "id": "user-14",
+    "name": "Lý Văn Thành",
+    "email": "thanh.lv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-14.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-01-22",
+    "status": "active"
+  },
+  {
+    "id": "user-15",
+    "name": "Phan Thị Mỹ Dung",
+    "email": "dung.ptm@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-15.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-02-28",
+    "status": "inactive"
+  },
+  {
+    "id": "user-16",
+    "name": "Cao Minh Tuấn",
+    "email": "tuan.cm@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-16.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-03-01",
+    "status": "active"
+  },
+  {
+    "id": "user-17",
+    "name": "Trịnh Thị Thanh Hà",
+    "email": "ha.ttt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-17.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-01-18",
+    "status": "active"
+  },
+  {
+    "id": "user-18",
+    "name": "Võ Văn Long",
+    "email": "long.vv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-18.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-02-14",
+    "status": "active"
+  },
+  {
+    "id": "user-19",
+    "name": "Mai Thị Ngọc Linh",
+    "email": "linh.mtn@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-19.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-03-08",
+    "status": "active"
+  },
+  {
+    "id": "user-20",
+    "name": "Lưu Thị Bảo Châu",
+    "email": "chau.ltb@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-20.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-01-30",
+    "status": "active"
+  },
+  {
+    "id": "user-21",
+    "name": "TS. Hoàng Minh Đức",
+    "email": "duc.hm@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-21.jpg",
+    "role": "instructor",
+    "organizationId": "org-02",
+    "joinedDate": "2023-11-01",
+    "status": "active"
+  },
+  {
+    "id": "user-22",
+    "name": "ThS. Nguyễn Thị Thu Trang",
+    "email": "trang.ntt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-22.jpg",
+    "role": "instructor",
+    "organizationId": "org-05",
+    "joinedDate": "2023-12-01",
+    "status": "active"
+  },
+  {
+    "id": "user-23",
+    "name": "Nguyễn Thị Bích Hằng",
+    "email": "hang.ntb@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-23.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-02-07",
+    "status": "active"
+  },
+  {
+    "id": "user-24",
+    "name": "Đỗ Văn Khải",
+    "email": "khai.dv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-24.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-03-15",
+    "status": "active"
+  },
+  {
+    "id": "user-25",
+    "name": "Trần Thị Yến Nhi",
+    "email": "nhi.tty@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-25.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-01-05",
+    "status": "active"
+  },
+  {
+    "id": "user-26",
+    "name": "Lê Văn Dũng",
+    "email": "dung.lv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-26.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-02-25",
+    "status": "inactive"
+  },
+  {
+    "id": "user-27",
+    "name": "Phạm Thị Hoa",
+    "email": "hoa.pt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-27.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-03-03",
+    "status": "active"
+  },
+  {
+    "id": "user-28",
+    "name": "Nguyễn Văn Bình",
+    "email": "binh.nv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-28.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-03-17",
+    "status": "active"
+  },
+  {
+    "id": "user-29",
+    "name": "Hoàng Văn Sơn",
+    "email": "son.hv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-29.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-01-12",
+    "status": "active"
+  },
+  {
+    "id": "user-30",
+    "name": "Vũ Thị Lan Anh",
+    "email": "anh.vtl@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-30.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-02-18",
+    "status": "active"
+  },
+  {
+    "id": "user-31",
+    "name": "Tống Thị Mai",
+    "email": "mai.tt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-31.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-01-25",
+    "status": "active"
+  },
+  {
+    "id": "user-32",
+    "name": "Trương Văn Hùng",
+    "email": "hung.tv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-32.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-03-10",
+    "status": "active"
+  },
+  {
+    "id": "user-33",
+    "name": "Đinh Thị Ngọc Ánh",
+    "email": "anh.dtn@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-33.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-02-03",
+    "status": "active"
+  },
+  {
+    "id": "user-34",
+    "name": "Bùi Văn Quân",
+    "email": "quan.bv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-34.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-01-08",
+    "status": "inactive"
+  },
+  {
+    "id": "user-35",
+    "name": "Lê Thị Thu Hiền",
+    "email": "hien.ltt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-35.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-02-22",
+    "status": "active"
+  },
+  {
+    "id": "user-36",
+    "name": "Nguyễn Đình Khoa",
+    "email": "khoa.nd@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-36.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-03-06",
+    "status": "active"
+  },
+  {
+    "id": "user-37",
+    "name": "Đoàn Thị Phúc",
+    "email": "phuc.dt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-37.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-01-20",
+    "status": "active"
+  },
+  {
+    "id": "user-38",
+    "name": "Phan Văn Tú",
+    "email": "tu.pv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-38.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-02-16",
+    "status": "active"
+  },
+  {
+    "id": "user-39",
+    "name": "ThS. Trần Văn Hiếu",
+    "email": "hieu.tv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-39.jpg",
+    "role": "instructor",
+    "organizationId": "org-03",
+    "joinedDate": "2023-10-01",
+    "status": "active"
+  },
+  {
+    "id": "user-40",
+    "name": "Ngô Thị Bảo Trân",
+    "email": "tran.ntb@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-40.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-03-14",
+    "status": "active"
+  },
+  {
+    "id": "user-41",
+    "name": "Lâm Thị Quỳnh Như",
+    "email": "nhu.ltq@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-41.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-01-02",
+    "status": "active"
+  },
+  {
+    "id": "user-42",
+    "name": "Hồ Văn Toàn",
+    "email": "toan.hv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-42.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-02-09",
+    "status": "active"
+  },
+  {
+    "id": "user-43",
+    "name": "Nguyễn Thị Diệu Linh",
+    "email": "linh.ntd@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-43.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-03-11",
+    "status": "inactive"
+  },
+  {
+    "id": "user-44",
+    "name": "Trần Quốc Bảo",
+    "email": "bao.tq@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-44.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-01-16",
+    "status": "active"
+  },
+  {
+    "id": "user-45",
+    "name": "Đặng Văn Khương",
+    "email": "khuong.dv@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-45.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-02-12",
+    "status": "active"
+  },
+  {
+    "id": "user-46",
+    "name": "Lý Thị Thanh Xuân",
+    "email": "xuan.ltt@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-46.jpg",
+    "role": "learner",
+    "organizationId": "org-05",
+    "joinedDate": "2024-03-04",
+    "status": "active"
+  },
+  {
+    "id": "user-47",
+    "name": "Vương Minh Hiền",
+    "email": "hien.vm@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-47.jpg",
+    "role": "learner",
+    "organizationId": "org-01",
+    "joinedDate": "2024-01-27",
+    "status": "active"
+  },
+  {
+    "id": "user-48",
+    "name": "Dương Thị Khánh Hòa",
+    "email": "hoa.dtk@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-48.jpg",
+    "role": "learner",
+    "organizationId": "org-02",
+    "joinedDate": "2024-02-26",
+    "status": "active"
+  },
+  {
+    "id": "user-49",
+    "name": "Lê Đình Trường",
+    "email": "truong.ld@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-49.jpg",
+    "role": "learner",
+    "organizationId": "org-03",
+    "joinedDate": "2024-03-09",
+    "status": "active"
+  },
+  {
+    "id": "user-50",
+    "name": "Huỳnh Thị Mỹ Phương",
+    "email": "phuong.htm@bvhttdl.gov.vn",
+    "avatar": "/images/avatars/user-50.jpg",
+    "role": "learner",
+    "organizationId": "org-04",
+    "joinedDate": "2024-01-19",
+    "status": "active"
+  }
+]

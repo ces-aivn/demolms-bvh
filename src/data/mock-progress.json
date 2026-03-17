@@ -1,0 +1,122 @@
+[
+  {
+    "userId": "user-01",
+    "courseId": "course-01",
+    "completedLessons": 24,
+    "totalLessons": 24,
+    "score": 92,
+    "startDate": "2024-02-01",
+    "lastAccessed": "2024-03-15",
+    "status": "completed"
+  },
+  {
+    "userId": "user-01",
+    "courseId": "course-03",
+    "completedLessons": 8,
+    "totalLessons": 12,
+    "score": 0,
+    "startDate": "2024-03-10",
+    "lastAccessed": "2024-03-20",
+    "status": "in-progress"
+  },
+  {
+    "userId": "user-01",
+    "courseId": "course-05",
+    "completedLessons": 0,
+    "totalLessons": 15,
+    "score": 0,
+    "startDate": "2024-03-22",
+    "lastAccessed": "2024-03-22",
+    "status": "enrolled"
+  },
+  {
+    "userId": "user-02",
+    "courseId": "course-07",
+    "completedLessons": 36,
+    "totalLessons": 36,
+    "score": 88,
+    "startDate": "2024-01-10",
+    "lastAccessed": "2024-03-01",
+    "status": "completed"
+  },
+  {
+    "userId": "user-02",
+    "courseId": "course-09",
+    "completedLessons": 10,
+    "totalLessons": 12,
+    "score": 0,
+    "startDate": "2024-03-05",
+    "lastAccessed": "2024-03-21",
+    "status": "in-progress"
+  },
+  {
+    "userId": "user-02",
+    "courseId": "course-11",
+    "completedLessons": 24,
+    "totalLessons": 24,
+    "score": 95,
+    "startDate": "2024-02-15",
+    "lastAccessed": "2024-03-10",
+    "status": "completed"
+  },
+  {
+    "userId": "user-03",
+    "courseId": "course-13",
+    "completedLessons": 30,
+    "totalLessons": 30,
+    "score": 90,
+    "startDate": "2024-01-20",
+    "lastAccessed": "2024-03-18",
+    "status": "completed"
+  },
+  {
+    "userId": "user-03",
+    "courseId": "course-16",
+    "completedLessons": 12,
+    "totalLessons": 18,
+    "score": 0,
+    "startDate": "2024-03-01",
+    "lastAccessed": "2024-03-22",
+    "status": "in-progress"
+  },
+  {
+    "userId": "user-04",
+    "courseId": "course-06",
+    "completedLessons": 18,
+    "totalLessons": 18,
+    "score": 85,
+    "startDate": "2024-02-05",
+    "lastAccessed": "2024-03-12",
+    "status": "completed"
+  },
+  {
+    "userId": "user-04",
+    "courseId": "course-02",
+    "completedLessons": 5,
+    "totalLessons": 18,
+    "score": 0,
+    "startDate": "2024-03-15",
+    "lastAccessed": "2024-03-21",
+    "status": "in-progress"
+  },
+  {
+    "userId": "user-05",
+    "courseId": "course-18",
+    "completedLessons": 9,
+    "totalLessons": 9,
+    "score": 94,
+    "startDate": "2024-02-10",
+    "lastAccessed": "2024-03-05",
+    "status": "completed"
+  },
+  {
+    "userId": "user-05",
+    "courseId": "course-14",
+    "completedLessons": 15,
+    "totalLessons": 24,
+    "score": 0,
+    "startDate": "2024-03-08",
+    "lastAccessed": "2024-03-22",
+    "status": "in-progress"
+  }
+]

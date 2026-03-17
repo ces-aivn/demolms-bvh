@@ -1,0 +1,704 @@
+[
+  {
+    "id": "course-01",
+    "title": "Quản lý Di sản Văn hóa Phi vật thể",
+    "description": "Khóa học cung cấp kiến thức về bảo tồn và phát huy giá trị di sản văn hóa phi vật thể theo quy định pháp luật Việt Nam. Học viên sẽ nắm vững các nguyên tắc UNESCO và áp dụng vào thực tiễn quản lý.",
+    "thumbnail": "/images/courses/course-01.jpg",
+    "domain": "van-hoa",
+    "level": "trung-cap",
+    "duration": "8 tuần",
+    "lessons": 24,
+    "instructor": "PGS.TS Nguyễn Văn An",
+    "instructorId": "user-06",
+    "organizationId": "org-01",
+    "rating": 4.8,
+    "enrolledCount": 156,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Tổng quan về Di sản Văn hóa Phi vật thể",
+        "lessons": [
+          { "title": "Khái niệm và phân loại di sản phi vật thể", "type": "video", "duration": "25 phút" },
+          { "title": "Công ước UNESCO 2003", "type": "document", "duration": "30 phút" },
+          { "title": "Hệ thống pháp luật Việt Nam về di sản", "type": "video", "duration": "35 phút" },
+          { "title": "Kiểm tra chương 1", "type": "quiz", "duration": "20 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Nhận diện và Kiểm kê Di sản",
+        "lessons": [
+          { "title": "Phương pháp nhận diện di sản phi vật thể", "type": "video", "duration": "40 phút" },
+          { "title": "Quy trình kiểm kê quốc gia", "type": "document", "duration": "25 phút" },
+          { "title": "Thực hành điền dã và ghi chép", "type": "video", "duration": "45 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Bảo vệ và Phát huy Giá trị",
+        "lessons": [
+          { "title": "Chiến lược bảo vệ di sản sống", "type": "video", "duration": "35 phút" },
+          { "title": "Truyền dạy và cộng đồng nghệ nhân", "type": "video", "duration": "30 phút" },
+          { "title": "Kinh nghiệm quốc tế - Nhật Bản, Hàn Quốc", "type": "document", "duration": "40 phút" },
+          { "title": "Kiểm tra tổng kết", "type": "quiz", "duration": "30 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-02",
+    "title": "Luật Di sản Văn hóa và Hướng dẫn Thực thi",
+    "description": "Phân tích chuyên sâu Luật Di sản Văn hóa 2001 (sửa đổi 2009) và các văn bản hướng dẫn thi hành. Phù hợp cho cán bộ quản lý văn hóa cấp tỉnh, huyện.",
+    "thumbnail": "/images/courses/course-02.jpg",
+    "domain": "van-hoa",
+    "level": "nang-cao",
+    "duration": "6 tuần",
+    "lessons": 18,
+    "instructor": "TS. Trần Thị Bích Ngọc",
+    "instructorId": "user-07",
+    "organizationId": "org-01",
+    "rating": 4.6,
+    "enrolledCount": 89,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Khung pháp lý Di sản Văn hóa",
+        "lessons": [
+          { "title": "Tổng quan Luật Di sản Văn hóa", "type": "video", "duration": "30 phút" },
+          { "title": "Nghị định hướng dẫn thi hành", "type": "document", "duration": "45 phút" },
+          { "title": "Thông tư và văn bản chuyên ngành", "type": "document", "duration": "35 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Quản lý Di tích và Bảo tàng",
+        "lessons": [
+          { "title": "Phân cấp quản lý di tích quốc gia", "type": "video", "duration": "40 phút" },
+          { "title": "Thủ tục xếp hạng di tích", "type": "video", "duration": "35 phút" },
+          { "title": "Quản lý bảo tàng công lập và tư nhân", "type": "document", "duration": "30 phút" },
+          { "title": "Kiểm tra giữa kỳ", "type": "quiz", "duration": "25 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Xử lý Vi phạm và Tranh chấp",
+        "lessons": [
+          { "title": "Các hành vi vi phạm phổ biến", "type": "video", "duration": "30 phút" },
+          { "title": "Chế tài xử phạt hành chính", "type": "document", "duration": "25 phút" },
+          { "title": "Case studies thực tế", "type": "video", "duration": "50 phút" },
+          { "title": "Bài thi cuối khóa", "type": "quiz", "duration": "40 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-03",
+    "title": "Tổ chức Sự kiện Văn hóa và Lễ hội Truyền thống",
+    "description": "Hướng dẫn toàn diện về lập kế hoạch, tổ chức và quản lý các sự kiện văn hóa, lễ hội truyền thống. Bao gồm quản lý ngân sách, an toàn và truyền thông sự kiện.",
+    "thumbnail": "/images/courses/course-03.jpg",
+    "domain": "van-hoa",
+    "level": "co-ban",
+    "duration": "4 tuần",
+    "lessons": 12,
+    "instructor": "ThS. Lê Minh Phương",
+    "instructorId": "user-08",
+    "organizationId": "org-04",
+    "rating": 4.5,
+    "enrolledCount": 234,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Lập kế hoạch Sự kiện",
+        "lessons": [
+          { "title": "Quy trình lập kế hoạch tổng thể", "type": "video", "duration": "30 phút" },
+          { "title": "Quản lý ngân sách sự kiện", "type": "document", "duration": "25 phút" },
+          { "title": "Phối hợp đơn vị và nhân sự", "type": "video", "duration": "35 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Triển khai và Vận hành",
+        "lessons": [
+          { "title": "Công tác chuẩn bị ngày khai mạc", "type": "video", "duration": "40 phút" },
+          { "title": "An ninh trật tự và an toàn", "type": "document", "duration": "20 phút" },
+          { "title": "Truyền thông và quảng bá", "type": "video", "duration": "30 phút" },
+          { "title": "Đánh giá và báo cáo kết quả", "type": "quiz", "duration": "20 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-04",
+    "title": "Bảo tồn Kiến trúc Di tích Lịch sử",
+    "description": "Kỹ thuật và phương pháp bảo tồn, trùng tu công trình kiến trúc di tích lịch sử theo tiêu chuẩn quốc tế ICOMOS. Dành cho kiến trúc sư và kỹ thuật viên bảo tồn.",
+    "thumbnail": "/images/courses/course-04.jpg",
+    "domain": "van-hoa",
+    "level": "nang-cao",
+    "duration": "10 tuần",
+    "lessons": 30,
+    "instructor": "PGS.TS Phạm Đức Thành",
+    "instructorId": "user-06",
+    "organizationId": "org-01",
+    "rating": 4.9,
+    "enrolledCount": 67,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Nguyên tắc Bảo tồn Quốc tế",
+        "lessons": [
+          { "title": "Hiến chương Venice và Athens", "type": "document", "duration": "40 phút" },
+          { "title": "Tiêu chuẩn ICOMOS Việt Nam", "type": "video", "duration": "35 phút" },
+          { "title": "Phân tích giá trị di sản kiến trúc", "type": "video", "duration": "45 phút" },
+          { "title": "Quiz nguyên tắc bảo tồn", "type": "quiz", "duration": "20 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Kỹ thuật Trùng tu",
+        "lessons": [
+          { "title": "Vật liệu truyền thống và hiện đại", "type": "video", "duration": "50 phút" },
+          { "title": "Kỹ thuật gia cố nền móng", "type": "video", "duration": "45 phút" },
+          { "title": "Phục hồi trang trí kiến trúc", "type": "video", "duration": "40 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Quản lý Dự án Bảo tồn",
+        "lessons": [
+          { "title": "Lập hồ sơ thiết kế bảo tồn", "type": "document", "duration": "35 phút" },
+          { "title": "Giám sát thi công và kiểm soát chất lượng", "type": "video", "duration": "40 phút" },
+          { "title": "Đánh giá tác động sau trùng tu", "type": "document", "duration": "30 phút" },
+          { "title": "Bài thi cuối khóa", "type": "quiz", "duration": "45 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-05",
+    "title": "Quản lý Thư viện và Lưu trữ Tài liệu Văn hóa",
+    "description": "Nghiệp vụ thư viện hiện đại ứng dụng công nghệ số hóa tài liệu, quản lý hệ thống thư viện điện tử và bảo quản tài liệu gốc. Phù hợp cho cán bộ thư viện và lưu trữ.",
+    "thumbnail": "/images/courses/course-05.jpg",
+    "domain": "van-hoa",
+    "level": "co-ban",
+    "duration": "5 tuần",
+    "lessons": 15,
+    "instructor": "ThS. Nguyễn Thị Hoa",
+    "instructorId": "user-07",
+    "organizationId": "org-04",
+    "rating": 4.4,
+    "enrolledCount": 178,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Nghiệp vụ Thư viện Cơ bản",
+        "lessons": [
+          { "title": "Phân loại và biên mục tài liệu DDC", "type": "video", "duration": "35 phút" },
+          { "title": "Hệ thống MARC21 và Dublin Core", "type": "document", "duration": "30 phút" },
+          { "title": "Phục vụ bạn đọc và tra cứu thông tin", "type": "video", "duration": "25 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Số hóa và Thư viện Điện tử",
+        "lessons": [
+          { "title": "Quy trình số hóa tài liệu", "type": "video", "duration": "40 phút" },
+          { "title": "Phần mềm quản lý thư viện Koha", "type": "video", "duration": "45 phút" },
+          { "title": "Bảo quản tài liệu số dài hạn", "type": "document", "duration": "30 phút" },
+          { "title": "Kiểm tra tổng kết", "type": "quiz", "duration": "25 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-06",
+    "title": "Mỹ thuật Đương đại và Quản lý Nghệ thuật",
+    "description": "Tổng quan về phong trào mỹ thuật đương đại Việt Nam và thế giới. Kỹ năng quản lý phòng tranh, triển lãm nghệ thuật và thị trường mỹ thuật trong bối cảnh hội nhập.",
+    "thumbnail": "/images/courses/course-06.jpg",
+    "domain": "van-hoa",
+    "level": "trung-cap",
+    "duration": "6 tuần",
+    "lessons": 18,
+    "instructor": "TS. Hoàng Minh Đức",
+    "instructorId": "user-08",
+    "organizationId": "org-04",
+    "rating": 4.7,
+    "enrolledCount": 112,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Lịch sử Mỹ thuật Việt Nam Hiện đại",
+        "lessons": [
+          { "title": "Mỹ thuật Đông Dương và giai đoạn kháng chiến", "type": "video", "duration": "45 phút" },
+          { "title": "Đổi mới và mỹ thuật sau 1986", "type": "video", "duration": "40 phút" },
+          { "title": "Xu hướng đương đại và nghệ sĩ tiêu biểu", "type": "document", "duration": "35 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Quản lý và Kinh doanh Nghệ thuật",
+        "lessons": [
+          { "title": "Vận hành gallery và không gian nghệ thuật", "type": "video", "duration": "40 phút" },
+          { "title": "Tổ chức triển lãm và sự kiện nghệ thuật", "type": "video", "duration": "35 phút" },
+          { "title": "Thị trường mỹ thuật và định giá tác phẩm", "type": "document", "duration": "30 phút" },
+          { "title": "Kiểm tra tổng kết", "type": "quiz", "duration": "30 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-07",
+    "title": "Huấn luyện Thể thao Thành tích Cao",
+    "description": "Phương pháp và khoa học huấn luyện vận động viên thể thao thành tích cao. Bao gồm lập kế hoạch huấn luyện, dinh dưỡng thể thao, phục hồi chấn thương và tâm lý thi đấu.",
+    "thumbnail": "/images/courses/course-07.jpg",
+    "domain": "the-thao",
+    "level": "nang-cao",
+    "duration": "12 tuần",
+    "lessons": 36,
+    "instructor": "GS.TS Vũ Đình Hùng",
+    "instructorId": "user-06",
+    "organizationId": "org-02",
+    "rating": 4.9,
+    "enrolledCount": 203,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Khoa học Huấn luyện Thể thao",
+        "lessons": [
+          { "title": "Sinh lý học thể thao ứng dụng", "type": "video", "duration": "50 phút" },
+          { "title": "Phương pháp lập kế hoạch huấn luyện chu kỳ", "type": "document", "duration": "45 phút" },
+          { "title": "Đánh giá trình độ vận động viên", "type": "video", "duration": "40 phút" },
+          { "title": "Bài kiểm tra lý thuyết huấn luyện", "type": "quiz", "duration": "30 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Dinh dưỡng và Phục hồi",
+        "lessons": [
+          { "title": "Dinh dưỡng thể thao khoa học", "type": "video", "duration": "45 phút" },
+          { "title": "Bổ sung thực phẩm chức năng hợp lệ", "type": "document", "duration": "35 phút" },
+          { "title": "Kỹ thuật phục hồi sau tập luyện", "type": "video", "duration": "40 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Tâm lý và Chiến thuật Thi đấu",
+        "lessons": [
+          { "title": "Tâm lý học thể thao đỉnh cao", "type": "video", "duration": "45 phút" },
+          { "title": "Xây dựng tinh thần đội và leadership", "type": "video", "duration": "40 phút" },
+          { "title": "Phân tích chiến thuật qua video", "type": "video", "duration": "50 phút" },
+          { "title": "Bài thi cuối khóa", "type": "quiz", "duration": "40 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-08",
+    "title": "Quản lý Cơ sở Vật chất Thể thao",
+    "description": "Quản lý và vận hành hiệu quả các cơ sở thể thao: sân vận động, nhà thi đấu, bể bơi. Tiêu chuẩn an toàn, bảo trì thiết bị và quản lý dịch vụ thể thao công cộng.",
+    "thumbnail": "/images/courses/course-08.jpg",
+    "domain": "the-thao",
+    "level": "trung-cap",
+    "duration": "6 tuần",
+    "lessons": 18,
+    "instructor": "ThS. Đinh Quốc Tuấn",
+    "instructorId": "user-07",
+    "organizationId": "org-02",
+    "rating": 4.5,
+    "enrolledCount": 134,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Tiêu chuẩn Cơ sở Thể thao",
+        "lessons": [
+          { "title": "Tiêu chuẩn quốc gia và quốc tế về sân bãi", "type": "document", "duration": "35 phút" },
+          { "title": "Thiết kế và quy hoạch không gian thể thao", "type": "video", "duration": "40 phút" },
+          { "title": "Hệ thống an toàn và phòng cháy chữa cháy", "type": "video", "duration": "30 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Vận hành và Bảo trì",
+        "lessons": [
+          { "title": "Kế hoạch bảo trì định kỳ thiết bị", "type": "document", "duration": "30 phút" },
+          { "title": "Quản lý nhân sự và lịch sử dụng", "type": "video", "duration": "35 phút" },
+          { "title": "Dịch vụ thể thao và mô hình kinh doanh", "type": "video", "duration": "40 phút" },
+          { "title": "Kiểm tra tổng kết", "type": "quiz", "duration": "25 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-09",
+    "title": "Phát triển Thể thao Cộng đồng và Thể dục Sức khỏe",
+    "description": "Xây dựng và triển khai chương trình thể dục thể thao cho cộng đồng dân cư. Phương pháp tuyên truyền, vận động và duy trì phong trào thể thao quần chúng.",
+    "thumbnail": "/images/courses/course-09.jpg",
+    "domain": "the-thao",
+    "level": "co-ban",
+    "duration": "4 tuần",
+    "lessons": 12,
+    "instructor": "ThS. Ngô Thị Lan Anh",
+    "instructorId": "user-08",
+    "organizationId": "org-02",
+    "rating": 4.6,
+    "enrolledCount": 289,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Thể thao Quần chúng",
+        "lessons": [
+          { "title": "Chính sách phát triển TDTT quần chúng", "type": "document", "duration": "25 phút" },
+          { "title": "Xây dựng chương trình thể dục cho các nhóm tuổi", "type": "video", "duration": "40 phút" },
+          { "title": "Tổ chức hội thao và giải đấu phong trào", "type": "video", "duration": "35 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Truyền thông và Vận động",
+        "lessons": [
+          { "title": "Chiến lược truyền thông thể thao cộng đồng", "type": "video", "duration": "30 phút" },
+          { "title": "Huy động nguồn lực xã hội hóa", "type": "document", "duration": "25 phút" },
+          { "title": "Đánh giá hiệu quả chương trình", "type": "video", "duration": "30 phút" },
+          { "title": "Bài kiểm tra cuối khóa", "type": "quiz", "duration": "20 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-10",
+    "title": "Luật Thể thao và Phòng chống Doping",
+    "description": "Hệ thống pháp lý thể thao Việt Nam và quốc tế. Quy định WADA về chống doping, thủ tục xét nghiệm và xử lý vi phạm. Bắt buộc với cán bộ quản lý thể thao thành tích cao.",
+    "thumbnail": "/images/courses/course-10.jpg",
+    "domain": "the-thao",
+    "level": "trung-cap",
+    "duration": "5 tuần",
+    "lessons": 15,
+    "instructor": "TS. Bùi Văn Nghĩa",
+    "instructorId": "user-06",
+    "organizationId": "org-02",
+    "rating": 4.7,
+    "enrolledCount": 98,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Pháp luật Thể thao",
+        "lessons": [
+          { "title": "Luật Thể dục Thể thao 2006 (sửa đổi 2018)", "type": "document", "duration": "40 phút" },
+          { "title": "Điều lệ giải đấu quốc gia và quốc tế", "type": "video", "duration": "35 phút" },
+          { "title": "Giải quyết tranh chấp trong thể thao", "type": "video", "duration": "30 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Phòng chống Doping",
+        "lessons": [
+          { "title": "Bộ luật Thế giới chống Doping WADA", "type": "document", "duration": "45 phút" },
+          { "title": "Danh mục chất cấm và phương pháp cấm", "type": "video", "duration": "35 phút" },
+          { "title": "Quy trình kiểm tra doping", "type": "video", "duration": "30 phút" },
+          { "title": "Bài thi chứng chỉ chống doping", "type": "quiz", "duration": "35 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-11",
+    "title": "Trọng tài Thể thao - Bóng đá và Các Môn Cầu",
+    "description": "Đào tạo trọng tài thể thao cho bóng đá, cầu lông, bóng bàn và tennis. Nắm vững luật thi đấu, kỹ năng điều hành trận đấu và ứng xử chuyên nghiệp trên sân.",
+    "thumbnail": "/images/courses/course-11.jpg",
+    "domain": "the-thao",
+    "level": "co-ban",
+    "duration": "8 tuần",
+    "lessons": 24,
+    "instructor": "ThS. Phạm Tiến Dũng",
+    "instructorId": "user-07",
+    "organizationId": "org-02",
+    "rating": 4.8,
+    "enrolledCount": 167,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Luật Bóng đá FIFA",
+        "lessons": [
+          { "title": "17 điều luật bóng đá quốc tế", "type": "document", "duration": "60 phút" },
+          { "title": "Kỹ thuật phán quyết offside và penalty", "type": "video", "duration": "45 phút" },
+          { "title": "Công nghệ hỗ trợ trọng tài VAR", "type": "video", "duration": "35 phút" },
+          { "title": "Thi luật bóng đá", "type": "quiz", "duration": "30 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Trọng tài Các Môn Cầu",
+        "lessons": [
+          { "title": "Luật cầu lông BWF cập nhật", "type": "document", "duration": "40 phút" },
+          { "title": "Luật bóng bàn ITTF", "type": "document", "duration": "35 phút" },
+          { "title": "Kỹ năng quản lý trận đấu và tâm lý trọng tài", "type": "video", "duration": "40 phút" },
+          { "title": "Bài thi tổng hợp", "type": "quiz", "duration": "35 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-12",
+    "title": "Yoga và Thiền định - Ứng dụng trong Chăm sóc Sức khỏe",
+    "description": "Nghiên cứu hệ thống yoga Hatha và Ashtanga, kỹ thuật thiền định Mindfulness. Ứng dụng vào chương trình sức khỏe toàn diện cho cộng đồng và môi trường làm việc.",
+    "thumbnail": "/images/courses/course-12.jpg",
+    "domain": "the-thao",
+    "level": "co-ban",
+    "duration": "6 tuần",
+    "lessons": 18,
+    "instructor": "Yoga Master Trương Thị Mai",
+    "instructorId": "user-08",
+    "organizationId": "org-02",
+    "rating": 4.9,
+    "enrolledCount": 312,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Nền tảng Yoga",
+        "lessons": [
+          { "title": "Triết học yoga và lịch sử phát triển", "type": "video", "duration": "30 phút" },
+          { "title": "Các asana cơ bản và biến thể an toàn", "type": "video", "duration": "50 phút" },
+          { "title": "Kỹ thuật thở Pranayama", "type": "video", "duration": "40 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Thiền và Ứng dụng",
+        "lessons": [
+          { "title": "Thiền Mindfulness MBSR", "type": "video", "duration": "45 phút" },
+          { "title": "Yoga trị liệu cho bệnh mãn tính", "type": "document", "duration": "35 phút" },
+          { "title": "Xây dựng chương trình yoga tại nơi làm việc", "type": "video", "duration": "40 phút" },
+          { "title": "Đánh giá thực hành", "type": "quiz", "duration": "20 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-13",
+    "title": "Hướng dẫn Viên Du lịch Chuyên nghiệp",
+    "description": "Đào tạo toàn diện kỹ năng hướng dẫn viên du lịch: kiến thức lịch sử, văn hóa, kỹ năng thuyết minh, xử lý tình huống và giao tiếp đa ngôn ngữ. Chuẩn bị thi cấp thẻ HDV.",
+    "thumbnail": "/images/courses/course-13.jpg",
+    "domain": "du-lich",
+    "level": "co-ban",
+    "duration": "10 tuần",
+    "lessons": 30,
+    "instructor": "ThS. Cao Thị Thu Hà",
+    "instructorId": "user-06",
+    "organizationId": "org-03",
+    "rating": 4.8,
+    "enrolledCount": 245,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Kiến thức Nền tảng Hướng dẫn viên",
+        "lessons": [
+          { "title": "Pháp luật du lịch và quy định cấp thẻ HDV", "type": "document", "duration": "35 phút" },
+          { "title": "Văn hóa và lịch sử Việt Nam tổng quan", "type": "video", "duration": "60 phút" },
+          { "title": "Địa lý du lịch các vùng miền", "type": "video", "duration": "50 phút" },
+          { "title": "Kiểm tra kiến thức tổng quan", "type": "quiz", "duration": "30 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Kỹ năng Thuyết minh và Giao tiếp",
+        "lessons": [
+          { "title": "Kỹ thuật thuyết minh điểm đến hiệu quả", "type": "video", "duration": "45 phút" },
+          { "title": "Giao tiếp đa văn hóa và tâm lý khách", "type": "video", "duration": "40 phút" },
+          { "title": "Tiếng Anh chuyên ngành du lịch", "type": "video", "duration": "50 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Xử lý Tình huống và An toàn",
+        "lessons": [
+          { "title": "Kỹ năng sơ cứu và an toàn tour", "type": "video", "duration": "40 phút" },
+          { "title": "Xử lý khủng hoảng và phàn nàn khách hàng", "type": "video", "duration": "35 phút" },
+          { "title": "Ôn tập thi thẻ hướng dẫn viên", "type": "document", "duration": "45 phút" },
+          { "title": "Thi thử cấp thẻ HDV", "type": "quiz", "duration": "60 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-14",
+    "title": "Quản lý Khách sạn và Dịch vụ Lưu trú",
+    "description": "Nghiệp vụ quản lý khách sạn theo tiêu chuẩn sao quốc tế. Quản lý buồng phòng, nhà hàng, lễ tân và chất lượng dịch vụ. Áp dụng cho cán bộ quản lý cơ sở lưu trú.",
+    "thumbnail": "/images/courses/course-14.jpg",
+    "domain": "du-lich",
+    "level": "trung-cap",
+    "duration": "8 tuần",
+    "lessons": 24,
+    "instructor": "TS. Lê Thị Thanh Xuân",
+    "instructorId": "user-07",
+    "organizationId": "org-03",
+    "rating": 4.7,
+    "enrolledCount": 189,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Tiêu chuẩn Khách sạn",
+        "lessons": [
+          { "title": "Hệ thống phân loại và xếp hạng sao", "type": "document", "duration": "30 phút" },
+          { "title": "Tiêu chuẩn dịch vụ 5 sao quốc tế", "type": "video", "duration": "45 phút" },
+          { "title": "Quản lý trải nghiệm khách hàng CX", "type": "video", "duration": "40 phút" },
+          { "title": "Quiz tiêu chuẩn phân loại", "type": "quiz", "duration": "20 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Vận hành Bộ phận",
+        "lessons": [
+          { "title": "Quản lý buồng phòng và Housekeeping", "type": "video", "duration": "40 phút" },
+          { "title": "Lễ tân và Check-in/Check-out hiện đại", "type": "video", "duration": "35 phút" },
+          { "title": "F&B - Quản lý nhà hàng khách sạn", "type": "video", "duration": "45 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Quản lý Tài chính và Marketing",
+        "lessons": [
+          { "title": "Revenue Management và định giá phòng", "type": "document", "duration": "40 phút" },
+          { "title": "Digital Marketing cho khách sạn", "type": "video", "duration": "35 phút" },
+          { "title": "Bài thi quản lý khách sạn", "type": "quiz", "duration": "35 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-15",
+    "title": "Phát triển Sản phẩm Du lịch Bền vững",
+    "description": "Thiết kế và xây dựng sản phẩm du lịch có trách nhiệm với môi trường và cộng đồng địa phương. Tiêu chí du lịch bền vững GSTC, certifications quốc tế và mô hình cộng đồng.",
+    "thumbnail": "/images/courses/course-15.jpg",
+    "domain": "du-lich",
+    "level": "nang-cao",
+    "duration": "8 tuần",
+    "lessons": 24,
+    "instructor": "PGS.TS Trần Văn Bình",
+    "instructorId": "user-08",
+    "organizationId": "org-03",
+    "rating": 4.8,
+    "enrolledCount": 143,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Du lịch Bền vững - Nền tảng",
+        "lessons": [
+          { "title": "Khung GSTC - Tiêu chí du lịch bền vững toàn cầu", "type": "document", "duration": "40 phút" },
+          { "title": "Tác động môi trường của hoạt động du lịch", "type": "video", "duration": "45 phút" },
+          { "title": "Mô hình du lịch cộng đồng CBT", "type": "video", "duration": "40 phút" },
+          { "title": "Quiz nền tảng bền vững", "type": "quiz", "duration": "25 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Thiết kế Sản phẩm Bền vững",
+        "lessons": [
+          { "title": "Phương pháp thiết kế tour sinh thái", "type": "video", "duration": "50 phút" },
+          { "title": "Kết nối chuỗi giá trị địa phương", "type": "video", "duration": "40 phút" },
+          { "title": "Chứng nhận Green Tourism và Ecotourism", "type": "document", "duration": "35 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Triển khai và Đánh giá",
+        "lessons": [
+          { "title": "Thí điểm và nhân rộng mô hình", "type": "video", "duration": "45 phút" },
+          { "title": "Đo lường tác động KPI bền vững", "type": "document", "duration": "35 phút" },
+          { "title": "Case study: Làng du lịch cộng đồng Hà Giang", "type": "video", "duration": "50 phút" },
+          { "title": "Bài thi cuối khóa", "type": "quiz", "duration": "40 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-16",
+    "title": "Marketing Du lịch Kỹ thuật số",
+    "description": "Chiến lược marketing du lịch trên nền tảng số: SEO, mạng xã hội, OTA, Google Ads và content marketing. Kỹ năng xây dựng thương hiệu điểm đến trong môi trường số.",
+    "thumbnail": "/images/courses/course-16.jpg",
+    "domain": "du-lich",
+    "level": "trung-cap",
+    "duration": "6 tuần",
+    "lessons": 18,
+    "instructor": "ThS. Nguyễn Bảo Châu",
+    "instructorId": "user-06",
+    "organizationId": "org-03",
+    "rating": 4.6,
+    "enrolledCount": 267,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Nền tảng Digital Marketing Du lịch",
+        "lessons": [
+          { "title": "Hành vi khách du lịch số và customer journey", "type": "video", "duration": "35 phút" },
+          { "title": "SEO cho website du lịch", "type": "video", "duration": "45 phút" },
+          { "title": "Content marketing và storytelling điểm đến", "type": "video", "duration": "40 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Kênh Digital và Công cụ",
+        "lessons": [
+          { "title": "Quản lý OTA: Booking.com, Agoda, Airbnb", "type": "video", "duration": "45 phút" },
+          { "title": "Social media và Influencer marketing", "type": "video", "duration": "40 phút" },
+          { "title": "Google Ads và Meta Ads cho du lịch", "type": "video", "duration": "45 phút" },
+          { "title": "Đo lường hiệu quả và tối ưu chiến dịch", "type": "quiz", "duration": "30 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-17",
+    "title": "Quy hoạch và Phát triển Điểm đến Du lịch",
+    "description": "Phương pháp quy hoạch không gian du lịch cấp vùng và địa phương. Tích hợp tài nguyên du lịch, hạ tầng, cộng đồng và chiến lược xúc tiến điểm đến bền vững.",
+    "thumbnail": "/images/courses/course-17.jpg",
+    "domain": "du-lich",
+    "level": "nang-cao",
+    "duration": "10 tuần",
+    "lessons": 30,
+    "instructor": "GS.TS Nguyễn Đình Quang",
+    "instructorId": "user-07",
+    "organizationId": "org-03",
+    "rating": 4.9,
+    "enrolledCount": 78,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Lý luận Quy hoạch Điểm đến",
+        "lessons": [
+          { "title": "Mô hình phát triển điểm đến Butler TALC", "type": "video", "duration": "45 phút" },
+          { "title": "Phân tích tài nguyên và sức chứa du lịch", "type": "document", "duration": "40 phút" },
+          { "title": "Quy hoạch du lịch tích hợp đa ngành", "type": "video", "duration": "50 phút" },
+          { "title": "Kiểm tra lý luận quy hoạch", "type": "quiz", "duration": "30 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Phương pháp và Công cụ",
+        "lessons": [
+          { "title": "GIS ứng dụng trong quy hoạch du lịch", "type": "video", "duration": "55 phút" },
+          { "title": "Nghiên cứu thị trường và khảo sát điểm đến", "type": "document", "duration": "40 phút" },
+          { "title": "Xây dựng chiến lược thương hiệu điểm đến", "type": "video", "duration": "45 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Triển khai và Quản trị",
+        "lessons": [
+          { "title": "Cơ chế quản trị điểm đến DMO", "type": "video", "duration": "40 phút" },
+          { "title": "Thu hút đầu tư và đối tác công tư", "type": "document", "duration": "35 phút" },
+          { "title": "Case study: Hội An, Phú Quốc, Hạ Long", "type": "video", "duration": "60 phút" },
+          { "title": "Bài thi quy hoạch điểm đến", "type": "quiz", "duration": "45 phút" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-18",
+    "title": "Nghiệp vụ Buồng phòng và Vệ sinh An toàn Thực phẩm",
+    "description": "Kỹ năng nghề housekeeping tiêu chuẩn quốc tế: vệ sinh buồng phòng, giặt ủi, bàn ghế và vệ sinh an toàn thực phẩm. Phù hợp đào tạo nhân viên khách sạn cơ sở.",
+    "thumbnail": "/images/courses/course-18.jpg",
+    "domain": "du-lich",
+    "level": "co-ban",
+    "duration": "3 tuần",
+    "lessons": 9,
+    "instructor": "KS. Vũ Thị Ngọc Ánh",
+    "instructorId": "user-08",
+    "organizationId": "org-05",
+    "rating": 4.4,
+    "enrolledCount": 356,
+    "status": "published",
+    "syllabus": [
+      {
+        "moduleTitle": "Kỹ thuật Dọn phòng Tiêu chuẩn",
+        "lessons": [
+          { "title": "Quy trình dọn phòng khách lưu trú và phòng trống", "type": "video", "duration": "40 phút" },
+          { "title": "Sử dụng hóa chất và thiết bị vệ sinh an toàn", "type": "video", "duration": "30 phút" },
+          { "title": "Kiểm tra phòng và báo cáo hỏng hóc", "type": "document", "duration": "20 phút" }
+        ]
+      },
+      {
+        "moduleTitle": "Vệ sinh An toàn Thực phẩm",
+        "lessons": [
+          { "title": "Quy định VSATTP trong nhà hàng khách sạn", "type": "document", "duration": "35 phút" },
+          { "title": "HACCP - Hệ thống kiểm soát an toàn thực phẩm", "type": "video", "duration": "40 phút" },
+          { "title": "Xử lý và bảo quản thực phẩm đúng cách", "type": "video", "duration": "30 phút" },
+          { "title": "Bài kiểm tra VSATTP", "type": "quiz", "duration": "25 phút" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cat-01",
+    "name": "Văn hóa",
+    "slug": "van-hoa",
+    "description": "Kiến thức và kỹ năng quản lý, bảo tồn di sản văn hóa, nghệ thuật biểu diễn và mỹ thuật",
+    "icon": "Landmark",
+    "subcategories": [
+      { "id": "sub-01-01", "name": "Di sản Văn hóa", "courseCount": 3 },
+      { "id": "sub-01-02", "name": "Quản lý Di tích", "courseCount": 2 },
+      { "id": "sub-01-03", "name": "Nghệ thuật Biểu diễn", "courseCount": 2 },
+      { "id": "sub-01-04", "name": "Thư viện & Lưu trữ", "courseCount": 2 },
+      { "id": "sub-01-05", "name": "Mỹ thuật & Điện ảnh", "courseCount": 2 },
+      { "id": "sub-01-06", "name": "Pháp luật Văn hóa", "courseCount": 1 }
+    ]
+  },
+  {
+    "id": "cat-02",
+    "name": "Thể thao",
+    "slug": "the-thao",
+    "description": "Nghiệp vụ huấn luyện, quản lý thể thao, luật thi đấu và phát triển thể thao cộng đồng",
+    "icon": "Trophy",
+    "subcategories": [
+      { "id": "sub-02-01", "name": "Huấn luyện Thể thao", "courseCount": 2 },
+      { "id": "sub-02-02", "name": "Thể thao Cộng đồng", "courseCount": 2 },
+      { "id": "sub-02-03", "name": "Luật & Trọng tài", "courseCount": 2 },
+      { "id": "sub-02-04", "name": "Quản lý Cơ sở TDTT", "courseCount": 2 },
+      { "id": "sub-02-05", "name": "Sức khỏe & Wellness", "courseCount": 2 },
+      { "id": "sub-02-06", "name": "Y học Thể thao", "courseCount": 1 }
+    ]
+  },
+  {
+    "id": "cat-03",
+    "name": "Du lịch",
+    "slug": "du-lich",
+    "description": "Nghiệp vụ hướng dẫn viên, quản lý khách sạn, marketing du lịch và quy hoạch điểm đến",
+    "icon": "MapPin",
+    "subcategories": [
+      { "id": "sub-03-01", "name": "Hướng dẫn Viên", "courseCount": 2 },
+      { "id": "sub-03-02", "name": "Quản lý Khách sạn", "courseCount": 2 },
+      { "id": "sub-03-03", "name": "Du lịch Bền vững", "courseCount": 2 },
+      { "id": "sub-03-04", "name": "Marketing Du lịch", "courseCount": 2 },
+      { "id": "sub-03-05", "name": "Quy hoạch Điểm đến", "courseCount": 1 },
+      { "id": "sub-03-06", "name": "Nghiệp vụ Buồng phòng", "courseCount": 1 }
+    ]
+  }
+]

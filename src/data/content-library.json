@@ -1,0 +1,202 @@
+[
+  {
+    "id": "media-01",
+    "filename": "gioi-thieu-di-san-phi-vat-the.mp4",
+    "type": "video",
+    "size": "245 MB",
+    "uploadDate": "2024-11-15",
+    "thumbnail": "/images/media/video-thumb-01.jpg",
+    "duration": "25 phút",
+    "courseId": "course-01"
+  },
+  {
+    "id": "media-02",
+    "filename": "cong-uoc-unesco-2003-full.pdf",
+    "type": "document",
+    "size": "3.2 MB",
+    "uploadDate": "2024-11-10",
+    "thumbnail": null,
+    "duration": null,
+    "courseId": "course-01"
+  },
+  {
+    "id": "media-03",
+    "filename": "phuong-phap-kiem-ke-di-san.mp4",
+    "type": "video",
+    "size": "312 MB",
+    "uploadDate": "2024-11-18",
+    "thumbnail": "/images/media/video-thumb-02.jpg",
+    "duration": "40 phút",
+    "courseId": "course-01"
+  },
+  {
+    "id": "media-04",
+    "filename": "luat-di-san-van-hoa-2001.pdf",
+    "type": "document",
+    "size": "1.8 MB",
+    "uploadDate": "2024-10-25",
+    "thumbnail": null,
+    "duration": null,
+    "courseId": "course-02"
+  },
+  {
+    "id": "media-05",
+    "filename": "bao-ton-kien-truc-co-ha-noi.jpg",
+    "type": "image",
+    "size": "4.5 MB",
+    "uploadDate": "2024-11-20",
+    "thumbnail": "/images/media/img-thumb-01.jpg",
+    "duration": null,
+    "courseId": "course-03"
+  },
+  {
+    "id": "media-06",
+    "filename": "nghe-thuat-quan-ho.mp4",
+    "type": "video",
+    "size": "189 MB",
+    "uploadDate": "2024-12-01",
+    "thumbnail": "/images/media/video-thumb-03.jpg",
+    "duration": "32 phút",
+    "courseId": "course-05"
+  },
+  {
+    "id": "media-07",
+    "filename": "slide-bao-tang-hien-dai.pptx",
+    "type": "document",
+    "size": "15.6 MB",
+    "uploadDate": "2024-11-28",
+    "thumbnail": null,
+    "duration": null,
+    "courseId": "course-04"
+  },
+  {
+    "id": "media-08",
+    "filename": "anh-di-tich-hoi-an.jpg",
+    "type": "image",
+    "size": "6.2 MB",
+    "uploadDate": "2024-11-22",
+    "thumbnail": "/images/media/img-thumb-02.jpg",
+    "duration": null,
+    "courseId": "course-03"
+  },
+  {
+    "id": "media-09",
+    "filename": "ca-tru-nghe-thuat-bieu-dien.mp4",
+    "type": "video",
+    "size": "267 MB",
+    "uploadDate": "2024-12-05",
+    "thumbnail": "/images/media/video-thumb-04.jpg",
+    "duration": "28 phút",
+    "courseId": "course-05"
+  },
+  {
+    "id": "media-10",
+    "filename": "tai-lieu-bao-ton-kien-truc.pdf",
+    "type": "document",
+    "size": "8.4 MB",
+    "uploadDate": "2024-10-30",
+    "thumbnail": null,
+    "duration": null,
+    "courseId": "course-03"
+  },
+  {
+    "id": "media-11",
+    "filename": "he-thong-bao-tang-viet-nam.mp4",
+    "type": "video",
+    "size": "198 MB",
+    "uploadDate": "2024-12-08",
+    "thumbnail": "/images/media/video-thumb-05.jpg",
+    "duration": "35 phút",
+    "courseId": "course-04"
+  },
+  {
+    "id": "media-12",
+    "filename": "anh-le-hoi-den-hung.jpg",
+    "type": "image",
+    "size": "5.8 MB",
+    "uploadDate": "2024-11-05",
+    "thumbnail": "/images/media/img-thumb-03.jpg",
+    "duration": null,
+    "courseId": "course-01"
+  },
+  {
+    "id": "media-13",
+    "filename": "huong-dan-kiem-ke-di-san.pdf",
+    "type": "document",
+    "size": "2.1 MB",
+    "uploadDate": "2024-11-12",
+    "thumbnail": null,
+    "duration": null,
+    "courseId": "course-01"
+  },
+  {
+    "id": "media-14",
+    "filename": "lich-su-phap-luat-di-san.mp4",
+    "type": "video",
+    "size": "156 MB",
+    "uploadDate": "2024-10-20",
+    "thumbnail": "/images/media/video-thumb-06.jpg",
+    "duration": "22 phút",
+    "courseId": "course-02"
+  },
+  {
+    "id": "media-15",
+    "filename": "anh-bao-tang-dan-toc-hoc.jpg",
+    "type": "image",
+    "size": "7.1 MB",
+    "uploadDate": "2024-12-10",
+    "thumbnail": "/images/media/img-thumb-04.jpg",
+    "duration": null,
+    "courseId": "course-04"
+  },
+  {
+    "id": "media-16",
+    "filename": "xu-ly-xung-dot-di-san.pdf",
+    "type": "document",
+    "size": "4.7 MB",
+    "uploadDate": "2024-11-30",
+    "thumbnail": null,
+    "duration": null,
+    "courseId": "course-02"
+  },
+  {
+    "id": "media-17",
+    "filename": "phuc-dung-cong-trinh-co.mp4",
+    "type": "video",
+    "size": "344 MB",
+    "uploadDate": "2024-12-12",
+    "thumbnail": "/images/media/video-thumb-07.jpg",
+    "duration": "48 phút",
+    "courseId": "course-03"
+  },
+  {
+    "id": "media-18",
+    "filename": "anh-nghe-thuat-mua-roi-nuoc.jpg",
+    "type": "image",
+    "size": "3.9 MB",
+    "uploadDate": "2024-11-08",
+    "thumbnail": "/images/media/img-thumb-05.jpg",
+    "duration": null,
+    "courseId": "course-05"
+  },
+  {
+    "id": "media-19",
+    "filename": "quan-ly-tai-chinh-bao-tang.pdf",
+    "type": "document",
+    "size": "5.3 MB",
+    "uploadDate": "2024-12-03",
+    "thumbnail": null,
+    "duration": null,
+    "courseId": "course-04"
+  },
+  {
+    "id": "media-20",
+    "filename": "tong-quan-di-san-vat-the.mp4",
+    "type": "video",
+    "size": "221 MB",
+    "uploadDate": "2024-12-14",
+    "thumbnail": "/images/media/video-thumb-08.jpg",
+    "duration": "30 phút",
+    "courseId": "course-01"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "totalUsers": 1250,
+  "totalCourses": 18,
+  "totalCompletions": 856,
+  "activeToday": 142,
+  "totalOrgs": 5,
+  "avgRating": 4.5,
+  "monthlyUsers": [85, 92, 110, 125, 138, 156, 170, 185, 198, 210, 230, 250],
+  "monthlyCompletions": [42, 55, 48, 62, 70, 75, 68, 82, 90, 78, 95, 91],
+  "domainDistribution": [
+    { "label": "Văn hóa", "value": 6, "color": "#B71C1C" },
+    { "label": "Thể thao", "value": 6, "color": "#1B5E20" },
+    { "label": "Du lịch", "value": 6, "color": "#0D47A1" }
+  ]
+}
