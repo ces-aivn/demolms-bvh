@@ -14,6 +14,7 @@ interface StatsWidgetProps {
   label: string;
   trend?: Trend;
   iconClassName?: string;
+  iconColor?: string;
   className?: string;
 }
 
@@ -23,11 +24,13 @@ export function StatsWidget({
   label,
   trend,
   iconClassName,
+  iconColor,
   className,
 }: StatsWidgetProps) {
   return (
-    <Card className={cn("", className)}>
-      <CardContent className="p-5">
+    <Card className={cn("glass-card border-none bg-white/70 dark:bg-navy-900/60 overflow-hidden relative group transform transition-all hover:-translate-y-1", className)}>
+      <div className="absolute inset-0 bg-gradient-to-br from-white/60 to-white/0 dark:from-white/10 dark:to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <CardContent className="p-5 relative z-10">
         <div className="flex items-start justify-between">
           <div className="flex-1">
             <p className="text-sm text-muted-foreground mb-1">{label}</p>
@@ -55,11 +58,21 @@ export function StatsWidget({
           </div>
           <div
             className={cn(
-              "flex h-11 w-11 items-center justify-center rounded-lg bg-primary-50",
-              iconClassName
+              "flex h-11 w-11 items-center justify-center rounded-xl group-hover:scale-110 transition-all duration-500",
+              iconClassName || "bg-primary/10"
             )}
           >
-            <Icon className="h-5 w-5 text-primary" />
+            <Icon className={cn(
+              "h-5 w-5",
+              iconColor || (
+                iconClassName?.includes("blue") ? "text-blue-600" :
+                iconClassName?.includes("green") ? "text-green-600" :
+                iconClassName?.includes("yellow") ? "text-yellow-600" :
+                iconClassName?.includes("orange") ? "text-orange-600" :
+                iconClassName?.includes("purple") ? "text-purple-600" :
+                "text-primary"
+              )
+            )} />
           </div>
         </div>
       </CardContent>

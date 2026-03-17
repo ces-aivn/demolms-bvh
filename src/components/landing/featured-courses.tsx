@@ -8,12 +8,12 @@ export function FeaturedCourses() {
   const featured = courses.filter((c) => c.status === "published").slice(0, 6);
 
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-20 px-4 bg-gray-50 dark:bg-navy-950/20 border-y border-gray-100">
       <div className="max-w-5xl mx-auto">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between mb-10 gap-4">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-1">Khóa học Nổi bật</h2>
-            <p className="text-muted-foreground text-sm">
+            <h2 className="text-2xl md:text-3xl font-bold mb-2">Khóa học Nổi bật</h2>
+            <p className="text-muted-foreground">
               Các khóa học được học viên đánh giá cao nhất
             </p>
           </div>

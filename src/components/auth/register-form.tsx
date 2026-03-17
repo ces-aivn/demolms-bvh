@@ -78,7 +78,7 @@ export function RegisterForm() {
           </p>
           <RoleSelector value={role} onChange={setRole} />
           <Button
-            className="w-full bg-primary hover:bg-primary-800"
+            className="w-full bg-gradient-to-r from-primary to-primary-800 hover:from-primary-800 hover:to-primary-900 shadow-md hover:shadow-lg transition-all"
             size="lg"
             disabled={!role}
             onClick={() => setStep(2)}
@@ -149,7 +149,7 @@ export function RegisterForm() {
             <Button variant="outline" className="flex-1" onClick={() => setStep(1)}>
               <ChevronLeft className="mr-1 h-4 w-4" /> Quay lại
             </Button>
-            <Button className="flex-1 bg-primary hover:bg-primary-800" onClick={() => setStep(3)}>
+            <Button className="flex-1 bg-gradient-to-r from-primary to-primary-800 hover:from-primary-800 hover:to-primary-900" onClick={() => setStep(3)}>
               Tiếp theo <ChevronRight className="ml-1 h-4 w-4" />
             </Button>
           </div>
@@ -184,7 +184,7 @@ export function RegisterForm() {
             <Button variant="outline" className="flex-1" onClick={() => setStep(2)}>
               <ChevronLeft className="mr-1 h-4 w-4" /> Quay lại
             </Button>
-            <Button className="flex-1 bg-primary hover:bg-primary-800" asChild>
+            <Button className="flex-1 bg-gradient-to-r from-primary to-primary-800 hover:from-primary-800 hover:to-primary-900" asChild>
               <Link href="/dashboard">Đăng ký</Link>
             </Button>
           </div>

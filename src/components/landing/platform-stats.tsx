@@ -30,9 +30,9 @@ const STATS = [
 
 export function PlatformStats() {
   return (
-    <section className="py-12 px-4 bg-white border-b">
+    <section className="py-14 px-4 bg-white border-b border-gray-100">
       <div className="max-w-5xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
           {STATS.map((stat) => (
             <StatsWidget
               key={stat.label}

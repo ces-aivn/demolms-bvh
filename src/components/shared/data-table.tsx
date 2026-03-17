@@ -106,14 +106,14 @@ export function DataTable<T extends Record<string, unknown>>({
         </div>
       )}
 
-      <div className="rounded-md border overflow-x-auto">
+      <div className="rounded-lg border overflow-x-auto">
         <Table>
           <TableHeader>
-            <TableRow>
+            <TableRow className="bg-muted/40 hover:bg-muted/40">
               {columns.map((col) => (
                 <TableHead
                   key={col.key}
-                  className={col.sortable ? "cursor-pointer select-none hover:bg-muted/50" : ""}
+                  className={`text-xs font-semibold uppercase tracking-wide text-muted-foreground/80 ${col.sortable ? "cursor-pointer select-none hover:bg-muted/60 transition-colors" : ""}`}
                   onClick={() => col.sortable && handleSort(col.key)}
                 >
                   <div className="flex items-center gap-1 whitespace-nowrap">
@@ -133,9 +133,9 @@ export function DataTable<T extends Record<string, unknown>>({
               </TableRow>
             ) : (
               paged.map((row, i) => (
-                <TableRow key={i}>
+                <TableRow key={i} className={`hover:bg-muted/30 transition-colors ${i % 2 === 1 ? "bg-muted/10" : ""}`}>
                   {columns.map((col) => (
-                    <TableCell key={col.key} className="whitespace-nowrap">
+                    <TableCell key={col.key} className="whitespace-nowrap py-3">
                       {col.render
                         ? col.render(row[col.key], row)
                         : String(row[col.key] ?? "")}

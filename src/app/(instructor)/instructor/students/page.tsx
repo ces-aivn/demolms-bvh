@@ -37,8 +37,8 @@ export default function StudentsPage() {
         actions={<ExportButton />}
       />
 
-      <Card>
-        <div className="p-4 border-b">
+      <Card className="overflow-hidden">
+        <div className="p-4 pb-3 border-b bg-muted/20">
           <StudentFilters
             search={search}
             onSearchChange={setSearch}

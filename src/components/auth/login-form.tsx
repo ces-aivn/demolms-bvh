@@ -90,7 +90,7 @@ export function LoginForm() {
       </label>
 
       {/* Submit */}
-      <Button className="w-full bg-primary hover:bg-primary-800" size="lg" asChild>
+      <Button className="w-full bg-gradient-to-r from-primary to-primary-800 hover:from-primary-800 hover:to-primary-900 shadow-md hover:shadow-lg transition-all" size="lg" asChild>
         <Link href="/dashboard">Đăng nhập</Link>
       </Button>
 

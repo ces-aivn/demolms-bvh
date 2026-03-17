@@ -38,7 +38,7 @@ export function CourseFilters({ organizations, onChange }: CourseFiltersProps) {
   const hasActive = Object.values(filters).some(Boolean);
 
   return (
-    <div className="flex flex-wrap gap-3 items-end mb-6 p-4 bg-muted/40 rounded-xl border">
+    <div className="flex flex-wrap gap-3 items-end mb-6 p-4 bg-white/80 rounded-xl border shadow-sm">
       <div className="flex items-center gap-1.5 text-sm font-medium text-muted-foreground shrink-0">
         <SlidersHorizontal className="h-4 w-4" />
         Lọc:

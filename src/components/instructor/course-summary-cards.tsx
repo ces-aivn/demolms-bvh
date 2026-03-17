@@ -63,11 +63,19 @@ export function CourseSummaryCards({ courses }: CourseSummaryCardsProps) {
               <div className="space-y-1">
                 <div className="flex justify-between text-[11px]">
                   <span className="text-muted-foreground">Tiến độ học viên</span>
-                  <span className="font-medium text-primary">{completion}%</span>
+                  <span className={`font-medium ${
+                    completion >= 80 ? "text-green-600" :
+                    completion >= 60 ? "text-blue-600" :
+                    "text-amber-600"
+                  }`}>{completion}%</span>
                 </div>
                 <div className="h-1.5 w-full rounded-full bg-muted overflow-hidden">
                   <div
-                    className="h-full rounded-full bg-primary transition-all"
+                    className={`h-full rounded-full transition-all ${
+                      completion >= 80 ? "bg-green-500" :
+                      completion >= 60 ? "bg-blue-500" :
+                      "bg-amber-500"
+                    }`}
                     style={{ width: `${completion}%` }}
                   />
                 </div>

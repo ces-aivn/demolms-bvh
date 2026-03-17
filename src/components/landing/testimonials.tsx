@@ -1,6 +1,7 @@
 import { Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
 import { RatingStars } from "@/components/shared/rating-stars";
 
 const TESTIMONIALS = [
@@ -36,38 +37,39 @@ const TESTIMONIALS = [
 export function Testimonials() {
   return (
     <section
-      className="py-16 px-4 relative"
-      style={{ backgroundImage: "url('/images/news/news-01.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
+      className="py-24 px-4 relative overflow-hidden"
+      style={{ backgroundImage: "url('/images/news/news-01.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundAttachment: "fixed" }}
     >
       {/* Light overlay to keep readability */}
-      <div className="absolute inset-0 bg-white/92" />
+      <div className="absolute inset-0 bg-white/90 dark:bg-navy-950/90 backdrop-blur-sm" />
       <div className="relative max-w-5xl mx-auto z-10">
-        <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold mb-3">Học viên Nói Gì</h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">
+        <div className="text-center mb-14">
+          <Badge className="mb-4 bg-secondary/10 text-secondary-700 border-secondary/20 hover:bg-secondary/20 text-xs px-3 py-1">Đánh giá nổi bật</Badge>
+          <h2 className="text-2xl md:text-3xl font-bold mb-3 tracking-tight">Học viên Nói Gì</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Chia sẻ từ những học viên đã hoàn thành khóa học và ứng dụng kiến
             thức vào thực tiễn công tác.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {TESTIMONIALS.map((t) => (
-            <Card key={t.id} className="relative">
-              <CardContent className="p-6">
-                <Quote className="h-8 w-8 text-primary/20 mb-3" />
-                <p className="text-sm text-muted-foreground leading-relaxed mb-5 italic">
+          {TESTIMONIALS.map((t, index) => (
+            <Card key={t.id} className="relative bg-white/80 dark:bg-navy-900/70 backdrop-blur-md border border-white/60 shadow-sm overflow-hidden group hover:-translate-y-1 hover:shadow-md transition-all duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 0.15}s` }}>
+              <CardContent className="p-6 relative z-10">
+                <Quote className="h-8 w-8 text-primary/15 mb-3" />
+                <p className="text-sm text-foreground/80 leading-relaxed mb-6 italic">
                   &ldquo;{t.quote}&rdquo;
                 </p>
-                <div className="flex items-center gap-3">
-                  <Avatar className="h-10 w-10">
-                    <AvatarFallback className="bg-primary text-white font-semibold text-sm">
+                <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
+                  <Avatar className="h-10 w-10 border-2 border-primary/20">
+                    <AvatarFallback className="bg-gradient-to-br from-primary to-primary-600 text-white font-semibold text-xs">
                       {t.initial}
                     </AvatarFallback>
                   </Avatar>
-                  <div>
+                  <div className="min-w-0">
                     <p className="font-semibold text-sm">{t.name}</p>
-                    <p className="text-xs text-muted-foreground">{t.role}</p>
-                    <RatingStars rating={t.rating} className="mt-1" />
+                    <p className="text-xs text-muted-foreground truncate">{t.role}</p>
+                    <RatingStars rating={t.rating} className="mt-0.5" />
                   </div>
                 </div>
               </CardContent>

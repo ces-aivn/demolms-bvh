@@ -59,19 +59,25 @@ export default function CourseDetailPage({ params }: Props) {
       />
 
       {/* Banner */}
-      <div className={cn("rounded-xl bg-gradient-to-r p-6 text-white mb-6", DOMAIN_BG[course.domain] ?? "from-primary to-primary-700")}>
-        <div className="flex flex-wrap gap-2 mb-3">
-          <DomainBadge domain={course.domain} className="bg-white/20 text-white border-white/30" />
-          <Badge className={cn("text-xs", LEVEL_COLORS[course.level])}>{getLevelLabel(course.level)}</Badge>
+      <div className={cn("relative rounded-xl bg-gradient-to-r p-6 lg:p-8 text-white mb-6 overflow-hidden", DOMAIN_BG[course.domain] ?? "from-primary to-primary-700")}>
+        {/* Decorative elements */}
+        <div className="absolute top-0 right-0 w-56 h-56 bg-white/5 rounded-full -translate-y-28 translate-x-28" />
+        <div className="absolute bottom-0 left-1/2 w-40 h-40 bg-black/5 rounded-full translate-y-20" />
+
+        <div className="relative">
+          <div className="flex flex-wrap gap-2 mb-3">
+            <DomainBadge domain={course.domain} className="bg-white/20 text-white border-white/30" />
+            <Badge className={cn("text-xs", LEVEL_COLORS[course.level])}>{getLevelLabel(course.level)}</Badge>
+          </div>
+          <h1 className="text-2xl lg:text-3xl font-bold leading-tight mb-3 max-w-2xl">{course.title}</h1>
+          <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
+            <RatingStars rating={course.rating} showValue className="text-white/80" />
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" />{course.enrolledCount.toLocaleString("vi-VN")} học viên</span>
+            <span className="flex items-center gap-1"><Clock className="h-4 w-4" />{course.duration}</span>
+            <span className="flex items-center gap-1"><BookOpen className="h-4 w-4" />{totalLessons} bài học</span>
+          </div>
+          <p className="text-sm text-white/60 mt-2">Giảng viên: {course.instructor} · {org?.shortName}</p>
         </div>
-        <h1 className="text-2xl font-bold leading-tight mb-3 max-w-2xl">{course.title}</h1>
-        <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
-          <RatingStars rating={course.rating} showValue className="text-white/80" />
-          <span className="flex items-center gap-1"><Users className="h-4 w-4" />{course.enrolledCount.toLocaleString("vi-VN")} học viên</span>
-          <span className="flex items-center gap-1"><Clock className="h-4 w-4" />{course.duration}</span>
-          <span className="flex items-center gap-1"><BookOpen className="h-4 w-4" />{totalLessons} bài học</span>
-        </div>
-        <p className="text-sm text-white/70 mt-2">Giảng viên: {course.instructor} · {org?.shortName}</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -156,19 +162,20 @@ export default function CourseDetailPage({ params }: Props) {
 
         {/* Sticky sidebar CTA */}
         <div>
-          <Card className="sticky top-20">
+          <Card className="sticky top-20 shadow-lg border-0">
             <CardContent className="p-5 space-y-4">
-              <div className="aspect-video bg-gradient-to-br from-primary-100 to-primary-200 rounded-lg flex items-center justify-center">
+              <div className="aspect-video bg-gradient-to-br from-primary-100 to-primary-200 rounded-lg flex items-center justify-center relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent" />
                 <BookOpen className="h-12 w-12 text-primary/30" />
               </div>
 
-              <Button className="w-full bg-primary hover:bg-primary-800" size="lg" asChild>
+              <Button className="w-full bg-gradient-to-r from-primary to-primary-700 hover:from-primary-700 hover:to-primary shadow-md hover:shadow-lg transition-all" size="lg" asChild>
                 <Link href={`/learn/${course.id}`}>
-                  <PlayCircle className="h-4 w-4 mr-2" />
-                  Bắt đầu học
+                  <PlayCircle className="h-5 w-5 mr-2" />
+                  Bắt đầu học ngay
                 </Link>
               </Button>
-              <Button variant="outline" className="w-full" size="lg">Đăng ký khóa học</Button>
+              <Button variant="outline" className="w-full border-primary/30 text-primary hover:bg-primary/5" size="lg">Đăng ký khóa học</Button>
 
               <Separator />
 

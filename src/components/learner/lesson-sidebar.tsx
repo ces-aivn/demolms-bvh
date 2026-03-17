@@ -24,8 +24,8 @@ export function LessonSidebar({ syllabus, completedCount, activeLesson, onSelect
   let globalIndex = 0;
 
   return (
-    <div className="flex flex-col h-full bg-background border-l">
-      <div className="px-4 py-3 border-b bg-muted/40">
+    <div className="flex flex-col h-full bg-gray-50/80">
+      <div className="px-4 py-3.5 border-b bg-white">
         <h3 className="font-semibold text-sm">Nội dung khóa học</h3>
         <p className="text-xs text-muted-foreground mt-0.5">
           {completedCount} / {syllabus.reduce((s, m) => s + m.lessons.length, 0)} bài hoàn thành

@@ -31,11 +31,11 @@ export default function LearnerDashboardPage() {
     .slice(0, 4) as typeof courses;
 
   return (
-    <div>
+    <div className="space-y-6">
       <WelcomeBanner name="Nguyễn Thị Minh Châu" streak={7} />
       <ProgressOverview progressList={progressList} />
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left: recent courses */}
         <div className="lg:col-span-2 space-y-4">
           <h2 className="font-semibold text-lg">Tiếp tục học</h2>
@@ -45,18 +45,12 @@ export default function LearnerDashboardPage() {
         {/* Right: sidebar widgets */}
         <div className="space-y-4">
           <UpcomingDeadlines />
-        </div>
-      </div>
-
-      {/* Activity feed full-width on small, right col on large */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-        <div className="lg:col-span-2">
-          <RecommendedCourses courses={recommended} />
-        </div>
-        <div>
           <ActivityFeed />
         </div>
       </div>
+
+      {/* Recommended courses - full width for better card layout */}
+      <RecommendedCourses courses={recommended} />
     </div>
   );
 }

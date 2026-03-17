@@ -1,18 +1,25 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { MINISTRY_NAME, MINISTRY_SHORT, COPYRIGHT_YEAR } from "@/lib/constants";
 
 export function Footer() {
   return (
-    <footer className="bg-navy text-white mt-auto">
-      <div className="max-w-7xl mx-auto px-4 py-12 lg:px-6">
+    <footer className="bg-gradient-to-b from-navy-800 to-navy-900 text-white mt-auto border-t border-white/10 relative overflow-hidden">
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[100px] -translate-y-1/2 opacity-50 pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-[100px] translate-y-1/2 opacity-50 pointer-events-none" />
+      <div className="relative z-10 max-w-7xl mx-auto px-4 py-12 lg:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1: Contact */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="flex h-9 w-9 items-center justify-center rounded bg-primary text-white font-bold text-sm">
-                BV
-              </div>
+              <Image
+                src="/images/logo/bvhttdl-logo.png"
+                alt="BVHTTDL"
+                width={36}
+                height={36}
+                className="shrink-0 rounded"
+              />
               <div>
                 <p className="font-bold text-sm leading-none">{MINISTRY_SHORT}</p>
                 <p className="text-xs text-white/60 mt-0.5">E-Learning Platform</p>
@@ -93,7 +100,7 @@ export function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/10 bg-black/20">
         <div className="max-w-7xl mx-auto px-4 py-4 lg:px-6 flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-xs text-white/50">
             &copy; {COPYRIGHT_YEAR} {MINISTRY_NAME}. Bảo lưu mọi quyền.

@@ -133,8 +133,8 @@ export default function CourseBuilderPage() {
                 <CardTitle className="text-sm font-semibold">Xem trước</CardTitle>
               </CardHeader>
               <CardContent className="p-0">
-                <div className="aspect-video bg-gradient-to-br from-red-100 to-red-200 flex items-center justify-center relative">
-                  <BookOpen className="h-14 w-14 text-primary/30" />
+                <div className="aspect-video bg-gradient-to-br from-red-50 via-red-100 to-red-200/80 flex items-center justify-center relative">
+                  <BookOpen className="h-12 w-12 text-primary/25" />
                   <div className="absolute top-2 left-2 flex gap-1.5">
                     {form.domain && (
                       <DomainBadge domain={form.domain as "van-hoa" | "the-thao" | "du-lich"} />

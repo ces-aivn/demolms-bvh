@@ -16,11 +16,16 @@ const podiumIcon = [
   <Award key="3" className="h-6 w-6 text-amber-600" />,
 ];
 
-const podiumHeight = ["h-24", "h-16", "h-12"];
+const podiumHeight = ["h-28", "h-20", "h-14"];
 const podiumBg = [
-  "bg-gradient-to-b from-secondary/20 to-secondary/10 border-secondary/40",
-  "bg-gradient-to-b from-gray-100 to-gray-50 border-gray-300",
-  "bg-gradient-to-b from-amber-100 to-amber-50 border-amber-300",
+  "bg-gradient-to-b from-secondary/30 to-secondary/10 border-secondary/50 shadow-inner",
+  "bg-gradient-to-b from-gray-200 to-gray-100 border-gray-300 shadow-inner",
+  "bg-gradient-to-b from-amber-200/70 to-amber-100 border-amber-400/50 shadow-inner",
+];
+const avatarRing = [
+  "ring-secondary ring-offset-2",
+  "ring-gray-400 ring-offset-2",
+  "ring-amber-500 ring-offset-2",
 ];
 
 export default function LeaderboardPage() {
@@ -42,32 +47,32 @@ export default function LeaderboardPage() {
 
         <TabsContent value="ranking">
           {/* Top 3 podium */}
-          <Card className="mb-6 overflow-hidden">
-            <div className="bg-gradient-to-r from-primary/5 via-secondary/5 to-primary/5 p-6">
-              <h2 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-6">
+          <Card className="mb-6 overflow-hidden border-0 shadow-lg">
+            <div className="bg-gradient-to-br from-navy-50 via-white to-secondary/10 p-8">
+              <h2 className="text-center text-xs font-bold text-navy/60 uppercase tracking-[0.2em] mb-8">
                 Top 3 xuất sắc nhất
               </h2>
               {/* Podium layout: 2nd | 1st | 3rd */}
-              <div className="flex items-end justify-center gap-4">
+              <div className="flex items-end justify-center gap-6">
                 {[1, 0, 2].map((idx) => {
                   const entry = top3[idx];
                   if (!entry) return null;
-                  const order = [1, 0, 2];
-                  const displayRank = order.indexOf(idx) === 0 ? 2 : order.indexOf(idx) === 1 ? 1 : 3;
+                  const displayRank = idx === 1 ? 2 : idx === 0 ? 1 : 3;
+                  const isFirst = entry.rank === 1;
                   return (
-                    <div key={entry.id} className="flex flex-col items-center gap-2 w-28">
-                      <div className="flex flex-col items-center gap-1">
+                    <div key={entry.id} className={`flex flex-col items-center gap-2 ${isFirst ? "w-32" : "w-28"}`}>
+                      <div className="flex flex-col items-center gap-1.5">
                         {podiumIcon[entry.rank - 1]}
-                        <Avatar className="h-12 w-12 ring-2 ring-offset-2 ring-primary/20">
-                          <AvatarFallback className="bg-primary text-white font-bold text-base">
+                        <Avatar className={`${isFirst ? "h-16 w-16" : "h-12 w-12"} ring-2 ${avatarRing[entry.rank - 1]}`}>
+                          <AvatarFallback className={`bg-primary text-white font-bold ${isFirst ? "text-xl" : "text-base"}`}>
                             {entry.name.charAt(0)}
                           </AvatarFallback>
                         </Avatar>
                         <p className="text-xs font-semibold text-center leading-snug line-clamp-2">{entry.name}</p>
-                        <p className="text-sm font-bold text-primary">{entry.points.toLocaleString("vi-VN")}đ</p>
+                        <p className={`font-bold text-primary ${isFirst ? "text-base" : "text-sm"}`}>{entry.points.toLocaleString("vi-VN")}đ</p>
                       </div>
-                      <div className={`w-full rounded-t-lg border-2 flex items-center justify-center ${podiumHeight[entry.rank - 1]} ${podiumBg[entry.rank - 1]}`}>
-                        <span className="text-2xl font-black text-foreground/30">{displayRank}</span>
+                      <div className={`w-full rounded-t-xl border-2 flex items-center justify-center ${podiumHeight[entry.rank - 1]} ${podiumBg[entry.rank - 1]}`}>
+                        <span className="text-3xl font-black text-foreground/20">{displayRank}</span>
                       </div>
                     </div>
                   );

@@ -20,22 +20,30 @@ export function ProgressOverview({ progressList }: ProgressOverviewProps) {
         value={enrolled}
         label="Đã đăng ký"
         trend={{ value: 2, direction: "up" }}
+        iconClassName="bg-blue-100 group-hover:bg-blue-200"
+        iconColor="text-blue-600"
       />
       <StatsWidget
         icon={GraduationCap}
         value={inProgress}
         label="Đang học"
+        iconClassName="bg-amber-100 group-hover:bg-amber-200"
+        iconColor="text-amber-600"
       />
       <StatsWidget
         icon={Award}
         value={completed}
         label="Hoàn thành"
         trend={{ value: 1, direction: "up" }}
+        iconClassName="bg-green-100 group-hover:bg-green-200"
+        iconColor="text-green-600"
       />
       <StatsWidget
         icon={Star}
         value={avgScore > 0 ? `${avgScore}đ` : "—"}
         label="Điểm trung bình"
+        iconClassName="bg-purple-100 group-hover:bg-purple-200"
+        iconColor="text-purple-600"
       />
     </div>
   );

@@ -43,8 +43,8 @@ export function Header({
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white shadow-sm">
-      <div className="flex h-16 items-center justify-between px-4 lg:px-6">
+    <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-lg border-b border-gray-200/60 shadow-sm">
+      <div className="flex h-16 items-center justify-between px-4 lg:px-6 max-w-7xl mx-auto">
         {/* Left: Logo + menu toggle */}
         <div className="flex items-center gap-3">
           {variant === "portal" && (
@@ -83,7 +83,7 @@ export function Header({
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors"
+                className="relative text-sm font-medium text-foreground/80 hover:text-primary transition-colors py-1 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
               >
                 {item.label}
               </Link>
@@ -95,10 +95,10 @@ export function Header({
         <div className="flex items-center gap-2">
           {variant === "public" ? (
             <>
-              <Button variant="ghost" size="sm" asChild className="hidden sm:flex">
+              <Button variant="ghost" size="sm" asChild className="hidden sm:flex rounded-full px-6 hover:bg-primary/10 hover:text-primary transition-colors">
                 <Link href="/login">Đăng nhập</Link>
               </Button>
-              <Button size="sm" asChild className="bg-primary hover:bg-primary-800">
+              <Button size="sm" asChild className="rounded-full px-6 bg-gradient-to-r from-primary to-primary-600 hover:from-primary-600 hover:to-primary shadow-md hover:shadow-lg transition-all animate-fade-in-up">
                 <Link href="/register">Đăng ký</Link>
               </Button>
             </>

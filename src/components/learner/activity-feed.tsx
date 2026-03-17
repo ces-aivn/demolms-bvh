@@ -32,17 +32,17 @@ export function ActivityFeed() {
       </CardHeader>
       <CardContent className="pt-0">
         <div className="relative">
-          <div className="absolute left-4 top-0 bottom-0 w-px bg-border" />
+          <div className="absolute left-[18px] top-0 bottom-0 w-px bg-gradient-to-b from-primary/20 via-border to-transparent" />
           <div className="space-y-3">
             {ACTIVITIES.map((item) => {
               const { Icon, color } = iconMap[item.icon];
               return (
-                <div key={item.id} className="flex items-start gap-3 pl-2">
-                  <div className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full z-10 ${color}`}>
-                    <Icon className="h-3 w-3" />
+                <div key={item.id} className="flex items-start gap-3 pl-2 group">
+                  <div className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full z-10 ring-2 ring-background ${color}`}>
+                    <Icon className="h-3.5 w-3.5" />
                   </div>
                   <div className="flex-1 min-w-0 pb-1">
-                    <p className="text-xs leading-snug">{item.text}</p>
+                    <p className="text-xs leading-snug group-hover:text-foreground transition-colors">{item.text}</p>
                     <p className="text-[10px] text-muted-foreground mt-0.5">{item.time}</p>
                   </div>
                 </div>

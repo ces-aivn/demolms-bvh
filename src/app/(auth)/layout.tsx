@@ -1,16 +1,21 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { MINISTRY_NAME, MINISTRY_SHORT } from "@/lib/constants";
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-navy-50 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50/60 via-white to-navy-50/40 flex flex-col">
       {/* Top bar */}
       <header className="px-6 py-4">
         <Link href="/" className="flex items-center gap-2 w-fit">
-          <div className="flex h-9 w-9 items-center justify-center rounded bg-primary text-white font-bold text-sm">
-            BV
-          </div>
+          <Image
+            src="/images/logo/bvhttdl-logo.png"
+            alt="BVHTTDL"
+            width={36}
+            height={36}
+            className="shrink-0"
+          />
           <div>
             <p className="font-bold text-primary text-sm leading-none">{MINISTRY_SHORT}</p>
             <p className="text-xs text-muted-foreground leading-none mt-0.5">E-Learning</p>

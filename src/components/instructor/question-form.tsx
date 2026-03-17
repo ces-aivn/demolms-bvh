@@ -112,7 +112,8 @@ export function QuestionForm({ onAdd }: QuestionFormProps) {
         type="button"
         onClick={handleAdd}
         disabled={!text.trim()}
-        className="w-full bg-primary hover:bg-primary-800"
+        variant="outline"
+        className="w-full border-primary text-primary hover:bg-primary hover:text-white transition-colors"
         size="sm"
       >
         <Plus className="h-4 w-4 mr-1.5" />

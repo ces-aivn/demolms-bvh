@@ -20,13 +20,13 @@ export function VideoPlayer({ title, duration = "25 phút" }: VideoPlayerProps) 
   }
 
   return (
-    <div className="rounded-xl overflow-hidden bg-gray-950 aspect-video relative group">
+    <div className="rounded-xl overflow-hidden bg-gray-950 aspect-video relative group shadow-xl">
       {/* Fake video frame */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-gray-900 to-gray-950">
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-gray-800 via-gray-900 to-gray-950">
         <div className="text-center px-6">
           <button
             onClick={() => setPlaying((p) => !p)}
-            className="mb-4 h-16 w-16 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center transition-colors"
+            className="mb-4 h-16 w-16 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all hover:scale-110 shadow-lg shadow-black/30 border border-white/10"
           >
             {playing ? (
               <Pause className="h-7 w-7 text-white ml-0" />

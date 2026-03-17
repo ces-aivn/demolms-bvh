@@ -36,14 +36,14 @@ export function RecentCourses({ items }: RecentCoursesProps) {
       {items.map(({ course, progress }) => {
         const percent = getProgressPercent(progress.completedLessons, progress.totalLessons);
         return (
-          <Card key={course.id} className="overflow-hidden">
+          <Card key={course.id} className="overflow-hidden hover:shadow-md transition-all duration-300 group">
             <div className="flex">
               <div
-                className={`relative w-24 shrink-0 bg-gradient-to-br flex items-center justify-center ${DOMAIN_BG[course.domain] ?? "from-primary-100 to-primary-200"}`}
+                className={`relative w-28 shrink-0 bg-gradient-to-br flex items-center justify-center ${DOMAIN_BG[course.domain] ?? "from-primary-100 to-primary-200"}`}
               >
-                <BookOpen className="h-7 w-7 text-primary/30" />
+                <BookOpen className="h-7 w-7 text-primary/25 group-hover:scale-110 transition-transform" />
               </div>
-              <CardContent className="p-3 flex-1 min-w-0">
+              <CardContent className="p-3.5 flex-1 min-w-0">
                 <div className="flex items-start justify-between gap-2">
                   <div className="flex-1 min-w-0">
                     <DomainBadge domain={course.domain} className="mb-1" />

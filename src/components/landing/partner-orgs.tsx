@@ -12,11 +12,11 @@ const ORG_LOGOS: Record<string, string> = {
 
 export function PartnerOrgs() {
   return (
-    <section className="py-16 px-4 bg-muted/30">
+    <section className="py-20 px-4 bg-muted/30">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">Đơn vị Thành viên</h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">
+          <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
             Các đơn vị trực thuộc Bộ Văn hóa, Thể thao và Du lịch tham gia xây
             dựng và cung cấp nội dung đào tạo.
           </p>

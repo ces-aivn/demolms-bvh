@@ -25,10 +25,10 @@ export function EnrolledCourseCard({ course, progress, hasCertificate }: Enrolle
   const isCompleted = progress.status === "completed";
 
   return (
-    <Card className="overflow-hidden hover:shadow-md transition-shadow">
+    <Card className="overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 group">
       {/* Thumbnail */}
       <div className={cn("relative h-32 bg-gradient-to-br flex items-center justify-center", DOMAIN_BG[course.domain] ?? "from-primary-100 to-primary-200")}>
-        <BookOpen className="h-10 w-10 text-primary/25" />
+        <BookOpen className="h-10 w-10 text-primary/25 group-hover:scale-110 transition-transform" />
         <div className="absolute top-2 left-2">
           <DomainBadge domain={course.domain} />
         </div>

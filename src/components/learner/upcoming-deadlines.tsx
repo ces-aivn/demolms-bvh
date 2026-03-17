@@ -46,8 +46,8 @@ export function UpcomingDeadlines() {
           <div
             key={d.id}
             className={cn(
-              "flex items-start gap-3 p-2.5 rounded-lg border",
-              d.urgent ? "border-red-200 bg-red-50" : "border-border bg-background"
+              "flex items-start gap-3 p-2.5 rounded-lg border transition-colors hover:shadow-sm",
+              d.urgent ? "border-red-200 bg-red-50/80" : "border-border/60 bg-muted/20 hover:bg-muted/40"
             )}
           >
             {d.urgent && (

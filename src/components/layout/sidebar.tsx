@@ -54,11 +54,11 @@ export function Sidebar({
               href={item.href}
               title={collapsed ? item.label : undefined}
               className={cn(
-                "flex items-center gap-3 rounded-md px-3 py-2.5 text-sm font-medium transition-colors",
+                "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-200",
                 "hover:bg-primary-50 hover:text-primary",
                 isActive
-                  ? "bg-primary-50 text-primary border-r-2 border-primary"
-                  : "text-foreground/70"
+                  ? "bg-primary/10 text-primary shadow-sm border border-primary/15 font-semibold"
+                  : "text-foreground/70 border border-transparent"
               )}
             >
               <NavIcon

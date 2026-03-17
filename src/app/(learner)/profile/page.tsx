@@ -42,9 +42,10 @@ export default function ProfilePage() {
         {/* Left column */}
         <div className="space-y-4">
           {/* Avatar + info */}
-          <Card>
-            <CardContent className="p-5 text-center">
-              <Avatar className="h-20 w-20 mx-auto mb-3">
+          <Card className="overflow-hidden">
+            <div className="h-16 bg-gradient-to-r from-primary to-primary-700" />
+            <CardContent className="p-5 text-center -mt-10">
+              <Avatar className="h-20 w-20 mx-auto mb-3 ring-4 ring-background shadow-lg">
                 <AvatarFallback className="bg-primary text-white text-2xl font-bold">
                   {user.name.charAt(0)}
                 </AvatarFallback>

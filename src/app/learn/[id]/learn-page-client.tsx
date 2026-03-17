@@ -31,7 +31,7 @@ export function LearnPageClient({ course, progress }: Props) {
   return (
     <div className="flex flex-col h-screen bg-background overflow-hidden">
       {/* Top bar */}
-      <div className="flex items-center gap-3 px-4 py-2.5 border-b bg-background/95 backdrop-blur shrink-0">
+      <div className="flex items-center gap-3 px-4 py-2.5 border-b bg-white/95 backdrop-blur-sm shrink-0 shadow-sm">
         <Button variant="ghost" size="sm" className="gap-1.5 text-muted-foreground" asChild>
           <Link href={`/courses/${course.id}`}>
             <ChevronLeft className="h-4 w-4" />

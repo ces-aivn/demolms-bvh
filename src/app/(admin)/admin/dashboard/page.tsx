@@ -26,5 +26,6 @@ export default function AdminDashboardPage() {
         <SystemHealth />
       </div>
     </div>
+
   );
 }

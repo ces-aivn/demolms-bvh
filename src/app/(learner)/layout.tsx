@@ -12,7 +12,7 @@ export default function LearnerLayout({ children }: { children: ReactNode }) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   return (
-    <div className="flex h-screen overflow-hidden bg-background">
+    <div className="flex h-screen overflow-hidden bg-slate-50/50 dark:bg-navy-950/20 selection:bg-primary/20">
       {/* Desktop sidebar */}
       <div className="hidden lg:flex">
         <Sidebar

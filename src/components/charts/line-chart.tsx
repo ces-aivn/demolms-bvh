@@ -7,7 +7,7 @@ export function LineChart({ data, color = "#B71C1C" }: LineChartProps) {
   if (data.length === 0) return null;
 
   const W = 400;
-  const H = 140;
+  const H = 180;
   const PAD = { top: 10, right: 10, bottom: 32, left: 36 };
   const chartW = W - PAD.left - PAD.right;
   const chartH = H - PAD.top - PAD.bottom;
@@ -37,7 +37,7 @@ export function LineChart({ data, color = "#B71C1C" }: LineChartProps) {
     <svg
       viewBox={`0 0 ${W} ${H}`}
       className="w-full"
-      style={{ height: "140px" }}
+      style={{ height: "180px" }}
     >
       {/* Grid lines */}
       {yTicks.map((tick) => (

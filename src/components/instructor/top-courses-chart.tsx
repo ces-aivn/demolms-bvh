@@ -18,7 +18,7 @@ export function TopCoursesChart({ stats }: TopCoursesChartProps) {
         <CardTitle className="text-base">Top khóa học theo học viên</CardTitle>
       </CardHeader>
       <CardContent>
-        <BarChart data={chartData} color="bg-primary" />
+        <BarChart data={chartData} color="bg-primary" labelWidth="w-44" />
       </CardContent>
     </Card>
   );

@@ -12,7 +12,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   return (
-    <div className="flex h-screen overflow-hidden bg-background">
+    <div className="flex h-screen overflow-hidden bg-slate-50/80 dark:bg-navy-950/40 selection:bg-primary/20">
       {/* Desktop sidebar — navy theme for admin */}
       <div className="hidden lg:flex">
         <Sidebar

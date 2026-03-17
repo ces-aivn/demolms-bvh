@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { BookOpen, Trophy, MapPin, ArrowRight } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 const DOMAINS = [
@@ -41,43 +40,59 @@ const DOMAINS = [
 
 export function DomainCategories() {
   return (
-    <section className="py-16 px-4 bg-background">
+    <section className="py-20 px-4 bg-background">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold mb-3">Lĩnh vực Đào tạo</h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">
+        <div className="text-center mb-14">
+          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 text-xs px-3 py-1">Khám phá</Badge>
+          <h2 className="text-2xl md:text-3xl font-bold mb-3 tracking-tight">Lĩnh vực Đào tạo</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Ba lĩnh vực chuyên môn cốt lõi phục vụ công tác đào tạo và bồi dưỡng
             cán bộ ngành Văn hóa, Thể thao và Du lịch.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {DOMAINS.map(({ slug, icon: Icon, title, description, courseCount, bgImage, iconClass, badgeClass }) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {DOMAINS.map(({ slug, icon: Icon, title, description, courseCount, bgImage, iconClass }) => (
             <Link key={slug} href={`/courses?domain=${slug}`}>
-              <Card
-                className="group relative h-full hover:shadow-lg transition-all duration-200 cursor-pointer border-2 hover:border-primary/20 overflow-hidden"
-                style={{ backgroundImage: `url('${bgImage}')`, backgroundSize: "cover", backgroundPosition: "center" }}
+              <div
+                className="group relative h-[360px] rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(183,28,28,0.3)] border border-black/5 dark:border-white/10"
               >
-                {/* Dark overlay */}
-                <div className="absolute inset-0 bg-black/55 group-hover:bg-black/65 transition-colors duration-200 rounded-[inherit]" />
-                <CardContent className="relative p-6 text-center z-10">
-                  <div className="flex justify-center mb-5">
-                    <div className="h-16 w-16 rounded-2xl flex items-center justify-center bg-white/20 backdrop-blur-sm">
-                      <Icon className={`h-8 w-8 ${iconClass}`} />
+                {/* Background image with zoom effect */}
+                <div 
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" 
+                  style={{ backgroundImage: `url('${bgImage}')` }} 
+                />
+                
+                {/* Dark gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-navy-900/95 via-navy-900/60 to-transparent transition-opacity duration-300 group-hover:from-navy-900/95 group-hover:via-navy-900/80" />
+                
+                {/* Content */}
+                <div className="absolute inset-0 p-6 sm:p-8 flex flex-col justify-end text-left z-10">
+                  <div className="mb-auto transform transition-transform duration-500 group-hover:translate-y-2">
+                    <div className="h-14 w-14 rounded-2xl flex items-center justify-center bg-white/20 backdrop-blur-md border border-white/20 shadow-lg group-hover:scale-110 group-hover:bg-primary/80 transition-all duration-300">
+                      <Icon className={`h-7 w-7 ${iconClass}`} />
                     </div>
                   </div>
-                  <h3 className="font-bold text-xl mb-2 text-white">
-                    {title}
-                  </h3>
-                  <p className="text-sm text-white/80 mb-4 leading-relaxed">
-                    {description}
-                  </p>
-                  <div className="flex items-center justify-center gap-2">
-                    <Badge className={badgeClass}>{courseCount} khóa học</Badge>
-                    <ArrowRight className="h-3.5 w-3.5 text-white/70 group-hover:text-white transition-colors" />
+                  
+                  <div className="transform transition-all duration-500 translate-y-8 group-hover:translate-y-0">
+                    <h3 className="font-bold text-2xl mb-2 text-white drop-shadow-md">
+                      {title}
+                    </h3>
+                    <p className="text-sm text-white/80 mb-6 leading-relaxed line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                      {description}
+                    </p>
+                    
+                    <div className="flex items-center gap-3">
+                      <Badge className="bg-white/20 hover:bg-white/30 text-white border-white/30 backdrop-blur-sm rounded-full px-3 py-1 font-medium">
+                        {courseCount} khóa học
+                      </Badge>
+                      <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 delay-150">
+                        <ArrowRight className="h-4 w-4 text-white" />
+                      </div>
+                    </div>
                   </div>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             </Link>
           ))}
         </div>

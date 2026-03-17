@@ -21,12 +21,13 @@ function CourseThumbnail({ course, className }: { course: Course; className?: st
   const bgClass = DOMAIN_BG[course.domain] ?? "from-primary-100 to-primary-200";
   return (
     <div className={cn("relative bg-gradient-to-br overflow-hidden", bgClass, className)}>
+      <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-300 z-10" />
       {course.thumbnail && (
         <Image
           src={course.thumbnail}
           alt={course.title}
           fill
-          className="object-cover"
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
       )}
       {/* Fallback icon shown behind the image */}
@@ -59,7 +60,7 @@ export function CourseCard({
       <Link href={`/courses/${course.id}`}>
         <Card
           className={cn(
-            "group overflow-hidden hover:shadow-md transition-all hover:scale-[1.01] cursor-pointer",
+            "group overflow-hidden hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1 cursor-pointer border border-transparent hover:border-primary/20 bg-white/80 backdrop-blur-sm",
             className
           )}
         >
@@ -98,7 +99,7 @@ export function CourseCard({
     <Link href={`/courses/${course.id}`}>
       <Card
         className={cn(
-          "group h-full overflow-hidden hover:shadow-md hover:scale-[1.02] transition-all cursor-pointer",
+          "group h-full overflow-hidden hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-300 cursor-pointer border border-transparent hover:border-primary/20 bg-white/90 backdrop-blur-sm",
           className
         )}
       >

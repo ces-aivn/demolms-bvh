@@ -57,31 +57,31 @@ export function StudentTable({ students, onRowClick }: StudentTableProps) {
     children: React.ReactNode;
   }) => (
     <TableHead
-      className="cursor-pointer select-none hover:bg-muted/50 transition-colors"
+      className="cursor-pointer select-none hover:bg-muted/60 transition-colors text-xs font-semibold uppercase tracking-wide text-muted-foreground/80"
       onClick={() => handleSort(field)}
     >
       <div className="flex items-center gap-1">
         {children}
-        <ArrowUpDown className="h-3.5 w-3.5 text-muted-foreground" />
+        <ArrowUpDown className="h-3 w-3 text-muted-foreground/60" />
       </div>
     </TableHead>
   );
 
   return (
-    <div className="overflow-x-auto rounded-lg border">
+    <div className="overflow-x-auto">
       <Table>
         <TableHeader>
-          <TableRow>
-            <TableHead className="w-10">STT</TableHead>
+          <TableRow className="bg-muted/40 hover:bg-muted/40">
+            <TableHead className="w-10 text-xs font-semibold uppercase tracking-wide text-muted-foreground/80">STT</TableHead>
             <SortHeader field="name">Họ tên</SortHeader>
-            <TableHead className="hidden md:table-cell">Email</TableHead>
+            <TableHead className="hidden md:table-cell text-xs font-semibold uppercase tracking-wide text-muted-foreground/80">Email</TableHead>
             <SortHeader field="completion">Tiến độ</SortHeader>
             <SortHeader field="quizScore">Điểm TB</SortHeader>
             <SortHeader field="lastActive">
               <span className="hidden sm:inline">Hoạt động cuối</span>
               <span className="sm:hidden">Cuối</span>
             </SortHeader>
-            <TableHead>Trạng thái</TableHead>
+            <TableHead className="text-xs font-semibold uppercase tracking-wide text-muted-foreground/80">Trạng thái</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -97,7 +97,7 @@ export function StudentTable({ students, onRowClick }: StudentTableProps) {
             return (
               <TableRow
                 key={s.id}
-                className="cursor-pointer hover:bg-muted/30 transition-colors"
+                className={`cursor-pointer hover:bg-muted/30 transition-colors ${idx % 2 === 1 ? "bg-muted/10" : ""}`}
                 onClick={() => onRowClick(s)}
               >
                 <TableCell className="text-muted-foreground text-xs font-mono">
@@ -117,14 +117,19 @@ export function StudentTable({ students, onRowClick }: StudentTableProps) {
                   {s.email}
                 </TableCell>
                 <TableCell>
-                  <div className="flex items-center gap-2 min-w-[80px]">
-                    <div className="flex-1 h-1.5 rounded-full bg-muted overflow-hidden">
+                  <div className="flex items-center gap-2 min-w-[100px]">
+                    <div className="flex-1 h-2 rounded-full bg-muted overflow-hidden">
                       <div
-                        className="h-full rounded-full bg-primary"
+                        className={`h-full rounded-full transition-all ${
+                          s.completion >= 80 ? "bg-green-500" :
+                          s.completion >= 50 ? "bg-blue-500" :
+                          s.completion >= 25 ? "bg-amber-500" :
+                          "bg-gray-400"
+                        }`}
                         style={{ width: `${s.completion}%` }}
                       />
                     </div>
-                    <span className="text-xs font-medium w-9 text-right">
+                    <span className="text-xs font-medium w-9 text-right tabular-nums">
                       {s.completion}%
                     </span>
                   </div>
