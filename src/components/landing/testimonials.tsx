@@ -35,8 +35,13 @@ const TESTIMONIALS = [
 
 export function Testimonials() {
   return (
-    <section className="py-16 px-4 bg-white">
-      <div className="max-w-5xl mx-auto">
+    <section
+      className="py-16 px-4 relative"
+      style={{ backgroundImage: "url('/images/news/news-01.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
+    >
+      {/* Light overlay to keep readability */}
+      <div className="absolute inset-0 bg-white/92" />
+      <div className="relative max-w-5xl mx-auto z-10">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">Học viên Nói Gì</h2>
           <p className="text-muted-foreground max-w-xl mx-auto">

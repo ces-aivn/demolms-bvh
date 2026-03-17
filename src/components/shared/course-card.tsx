@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Users, Clock, BookOpen } from "lucide-react";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -14,6 +15,26 @@ interface CourseCardProps {
   progress?: Progress;
   showProgress?: boolean;
   className?: string;
+}
+
+function CourseThumbnail({ course, className }: { course: Course; className?: string }) {
+  const bgClass = DOMAIN_BG[course.domain] ?? "from-primary-100 to-primary-200";
+  return (
+    <div className={cn("relative bg-gradient-to-br overflow-hidden", bgClass, className)}>
+      {course.thumbnail && (
+        <Image
+          src={course.thumbnail}
+          alt={course.title}
+          fill
+          className="object-cover"
+        />
+      )}
+      {/* Fallback icon shown behind the image */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <BookOpen className="h-12 w-12 text-primary/30" />
+      </div>
+    </div>
+  );
 }
 
 const DOMAIN_BG: Record<string, string> = {
@@ -43,14 +64,7 @@ export function CourseCard({
           )}
         >
           <div className="flex">
-            <div
-              className={cn(
-                "relative w-36 shrink-0 bg-gradient-to-br flex items-center justify-center",
-                DOMAIN_BG[course.domain] ?? "from-primary-100 to-primary-200"
-              )}
-            >
-              <BookOpen className="h-10 w-10 text-primary/30" />
-            </div>
+            <CourseThumbnail course={course} className="w-36 shrink-0" />
             <CardContent className="p-4 flex-1 min-w-0">
               <div className="flex gap-1.5 mb-1.5">
                 <DomainBadge domain={course.domain} />
@@ -89,16 +103,9 @@ export function CourseCard({
         )}
       >
         {/* Thumbnail */}
-        <div
-          className={cn(
-            "relative aspect-video bg-gradient-to-br overflow-hidden",
-            DOMAIN_BG[course.domain] ?? "from-primary-100 to-primary-200"
-          )}
-        >
-          <div className="absolute inset-0 flex items-center justify-center">
-            <BookOpen className="h-12 w-12 text-primary/30" />
-          </div>
-          <div className="absolute top-2 left-2 flex gap-1.5">
+        <div className="relative aspect-video overflow-hidden">
+          <CourseThumbnail course={course} className="absolute inset-0 w-full h-full" />
+          <div className="absolute top-2 left-2 flex gap-1.5 z-10">
             <DomainBadge domain={course.domain} />
             <Badge className={cn("text-xs font-medium", LEVEL_COLORS[course.level])}>
               {getLevelLabel(course.level)}

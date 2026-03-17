@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { LoginForm } from "@/components/auth/login-form";
 import { MINISTRY_SHORT, MINISTRY_NAME } from "@/lib/constants";
@@ -8,9 +9,13 @@ export default function LoginPage() {
       <CardHeader className="text-center pb-2">
         {/* Gov logo mark */}
         <div className="flex justify-center mb-3">
-          <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary text-white font-bold text-base shadow-md">
-            BV
-          </div>
+          <Image
+            src="/images/logo/bvhttdl-logo.png"
+            alt="BVHTTDL"
+            width={60}
+            height={60}
+            className="object-contain"
+          />
         </div>
         <p className="text-xs font-semibold text-primary tracking-wide uppercase mb-1">
           {MINISTRY_SHORT}

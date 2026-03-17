@@ -6,7 +6,13 @@ import { MINISTRY_NAME } from "@/lib/constants";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary-900 via-primary to-navy text-white">
+    <section
+      className="relative overflow-hidden bg-gradient-to-br from-primary-900 via-primary to-navy text-white"
+      style={{ backgroundImage: "url('/images/hero/event.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
+    >
+      {/* Dark overlay over the background photo */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-900/90 via-primary/85 to-navy/90" />
+
       {/* Decorative pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 h-40 w-40 rounded-full border-2 border-white/30" />

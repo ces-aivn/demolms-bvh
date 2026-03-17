@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 import { Menu, Bell, ChevronDown, LogOut, User, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -57,9 +58,13 @@ export function Header({
             </Button>
           )}
           <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded bg-primary text-white font-bold text-xs">
-              BV
-            </div>
+            <Image
+              src="/images/logo/bvhttdl-logo.png"
+              alt="BVHTTDL"
+              width={40}
+              height={40}
+              className="shrink-0"
+            />
             <div className="hidden sm:block">
               <span className="font-bold text-primary text-sm leading-none">
                 {MINISTRY_SHORT}

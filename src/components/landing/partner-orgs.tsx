@@ -1,7 +1,14 @@
+import Image from "next/image";
 import { Building2 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { organizations } from "@/lib/mock-data";
+
+// Map org IDs to available real logos
+const ORG_LOGOS: Record<string, string> = {
+  "org-02": "/images/orgs/soict-logo.png",
+  "org-03": "/images/orgs/vnpt-logo.jpg",
+};
 
 export function PartnerOrgs() {
   return (
@@ -20,8 +27,18 @@ export function PartnerOrgs() {
             <Card key={org.id} className="hover:shadow-md transition-shadow">
               <CardContent className="p-5">
                 <div className="flex items-start gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-50">
-                    <Building2 className="h-5 w-5 text-primary" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-50 overflow-hidden">
+                    {ORG_LOGOS[org.id] ? (
+                      <Image
+                        src={ORG_LOGOS[org.id]}
+                        alt={org.shortName}
+                        width={40}
+                        height={40}
+                        className="object-contain"
+                      />
+                    ) : (
+                      <Building2 className="h-5 w-5 text-primary" />
+                    )}
                   </div>
                   <div className="min-w-0">
                     <div className="flex items-center gap-2 mb-1 flex-wrap">
