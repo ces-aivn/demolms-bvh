@@ -1,0 +1,21 @@
+{
+  "name": "Hệ thống Học tập Trực tuyến - Bộ VHTTDL",
+  "short_name": "LMS BVHTTDL",
+  "description": "Hệ thống học tập trực tuyến của Bộ Văn hóa, Thể thao và Du lịch",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5F5",
+  "theme_color": "#B71C1C",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

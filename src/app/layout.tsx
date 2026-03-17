@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   description:
     "Hệ thống học tập trực tuyến của Bộ Văn hóa, Thể thao và Du lịch Việt Nam. Nâng cao năng lực chuyên môn cho cán bộ, công chức, viên chức ngành văn hóa.",
   keywords: "học trực tuyến, bộ văn hóa, BVHTTDL, đào tạo, e-learning",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
